@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Cyber Rōnin</title>
+  <title>Unrivaled Rōnin</title>
   <subtitle>CyberSecurity, Threat Intelligence, Life, Incident Response and Threat.</subtitle>
-  <updated>2022-04-11T16:16:35+07:00</updated>
+  <updated>2022-04-11T21:34:48+07:00</updated>
   <author>
     <name>Aung 🥷🏻</name>
     <uri>http://localhost:4000/</uri>
@@ -17,49 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title></title>
-    <link href="http://localhost:4000/posts/2013-10-29-pipline-to-trim-adaptor-sequences-from-illumina-hiseq-pair-ended-reads/" rel="alternate" type="text/html" title="" />
-    <published>2022-04-11T16:16:35+07:00</published>
-  
-    <updated>2022-04-11T16:16:35+07:00</updated>
-  
-    <id>http://localhost:4000/posts/2013-10-29-pipline-to-trim-adaptor-sequences-from-illumina-hiseq-pair-ended-reads/</id>
-    <content src="http://localhost:4000/posts/2013-10-29-pipline-to-trim-adaptor-sequences-from-illumina-hiseq-pair-ended-reads/" />
-    <author>
-      <name>Aung 🥷🏻</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This week, I have to analyze and trim the adaptor sequence for 5 illumina HiSeq 2000 reads (Penaeus_monodon &amp;amp; Litopenaeus vannamei species). 
-If you want to know about the research work I am helping with,please go to this page: CentexShrimp.
-
-Ok….Back to Sequence Trimming,
-
-The detail information about the run sequence can be viewed at NCBI Website.
-
-
-  SRR346404
-  SRR653437
-  SRR388207
-  S...
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -211,6 +168,44 @@ Firstly, Let start with the difference between Indicator of Compromise (IOCs)  a
 
 IOAs can describe the active attack series by adversary that is occurring in real time which is via real time monitoring and detection.
 The ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Penetration Testing - Business Logic Test</title>
+    <link href="http://localhost:4000/posts/Web-Application-Penetration-Testing/" rel="alternate" type="text/html" title="Penetration Testing - Business Logic Test" />
+    <published>2019-03-30T00:00:00+07:00</published>
+  
+    <updated>2019-03-30T00:00:00+07:00</updated>
+  
+    <id>http://localhost:4000/posts/Web-Application-Penetration-Testing/</id>
+    <content src="http://localhost:4000/posts/Web-Application-Penetration-Testing/" />
+    <author>
+      <name>Aung 🥷🏻</name>
+    </author>
+
+  
+    
+    <category term="Security" />
+    
+    <category term="Application Testing" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A state of Mind
+
+Unlike other  penetration testing techniques, business logic testing gives a headache to most beginner testers. This is an a testing area that the testers with application mind can find a way in better than professionals comes from network &amp;amp; system background. This post is not a “know-how” techniques of how to exploit the web application.  This is more of ideas that what th...
     </summary>
   
 

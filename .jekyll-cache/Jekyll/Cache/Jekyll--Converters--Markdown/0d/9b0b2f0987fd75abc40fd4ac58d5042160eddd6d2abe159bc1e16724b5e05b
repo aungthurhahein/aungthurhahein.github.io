@@ -1,0 +1,47 @@
+I"�<h2 id="introduction">Introduction</h2>
+
+<p>Firstly, Let start with the difference between Indicator of Compromise (IOCs)  and Indicator of Attacks (IOAs). In daily security operations, we are using these terms interchangeably, however it is better to understand the accurate meanings.</p>
+
+<p><strong>IOAs</strong> can describe the active attack series by adversary that is occurring in real time which is via real time monitoring and detection.
+The security sensors and security analysts can detect and escalate IOAs such as malicious IPs probing network, repetitive malware infection on a particular host, established inbound/outbound connections to IP from a country that the organization don’t deal business.</p>
+
+<p><strong>IOCs</strong> shows the evidence and artifacts left by attackers such as running malware process, dropped malware in system, and logs that show adversary lateral movement. These indicators can use to clean up and identify the compromised hosts in the organization and to create custom signatures for detection.</p>
+
+<p>In this piece,  it describes the importance of IOCs in Incidence Response, especially in Investigation process and creation &amp; deployment of IOCs.  By comparing with IOAs &amp; IOCs, most security folks are more familiar with IOCs due to the community effort to share, maintain and contribute the artifacts from the incidents.</p>
+
+<h2 id="iocs-fundamentals">IOCs Fundamentals</h2>
+
+<p>IOC lifecycle composes of the creation of IOCs from incidents, sharing the IOCs via Threat intel platform and correlation and enrichment of  IOCs and archiving and categorization. To share different type of IOCs , security practitioners come up with standardized protocols such as <strong>OpenIOC</strong>,<strong>Yara</strong>, <strong>CyboX</strong>, <strong>STIXX</strong> and <strong>STAXX</strong>.  It is out of scope to compare and discuss the pros and cons of these standard and I will leave that for further research. Another must-know protocol is called <strong>TLP (Traffic Light Protocol)</strong> which uses 4 color grades to describe sharing boundaries of the information.</p>
+
+<p>Many commercial and open source platforms are available that security practitioners can contribute and look for IOCs and the attack trends. 
+Go to AlienVault OTX, ThreatConnect, Talos Intelligence, VirusTotal to get an idea of the platforms and type of IOCs available among them.  For e.g., AlienVault OTX curates list of IPs, malware hashes, domains, emails of a particular malware based on third-party resources such as blogs, news and threat research article. VirusTotal is not IOCs platform, which is more of a lookup database to check the URL,IPs or hashes is malicious or not by the examiners (AV Engines) .</p>
+
+<h2 id="iocs-use-case">IOCs Use Case</h2>
+
+<p>In general, IOCs can help in preventing attacks before it happens proactively  and to use it during incident response.</p>
+
+<p>The entry level use case for IOC is matching and correlation with logs that maintain in SIEM system via <strong>Threat Intel</strong> application.  It can reveal and discover the inbound IPs that inside your network or the C2 callback server  from your internal network that can’t identify by the existing security monitoring tools.</p>
+
+<p>Another typical source type that is important to correlate is with DNS logs. The reason behind that is because some RAT and APT traffic don’t support DNS log and there is no app log or else.</p>
+
+<p>Having IOCs and other sources that can flag malicious traffic and malware is not having  threat intel. Threat Intel platform or provider analyzes and forwards a very specific threat indicators that relate to your organization’s region, sector and known target threat adversary that CISO and management needs to focus on.</p>
+
+<h2 id="types-of-iocs">Types of IOCs</h2>
+
+<p>There is a term called <a href="https://rvasec.com/slides/2014/Bianco_Pyramid%20of%20Pain.pdf">Pyramid of Pain</a> by FireEye Mandiant that presents the pain points and how difficult to maintain the Threat Intel data.
+The listing of IOCs type is also in the order of least painful and easy to use threat intel data to the most difficult ones. The attached pdf also contains more detail information with example of each.</p>
+
+<ul>
+  <li>Hashes: SHA1,MD5 hashes of malware executables, PE files and malicious attachments that you can look up or create ones that you collect. Most folks call this as creating custom malware signatures.</li>
+  <li><strong>IPs</strong>:  Known malicious C2 IPs, low reputation IPs.</li>
+  <li><strong>Domains</strong>: Domain names of a bunch of domain name with sub-domains used by attackers</li>
+  <li><strong>Network/Host Artifacts</strong>: Anything that left as evidence by attackers in network traffic level and host level. Normally, sandbox and simulating the malware artifacts  can reproduce the changes in file system and registry keys and in memory level.</li>
+  <li><strong>Tools</strong>: Like us, adversary implements software to do the bad things. <a href="https://attack.mitre.org/software/">Mitre ATTCK </a> has a list of known software users by adversay.</li>
+  <li><strong>TTPs</strong> : It stands for <strong>Tactis, Techniques and Procedures</strong> used by attackers. Basically, it provides the entire operation of adversary. A successful TTPs threat intel can provide the entire cyber attack kill chains of threat campaigns. 
+Ref: https://rvasec.com/slides/2014/Bianco_Pyramid%20of%20Pain.pdf</li>
+</ul>
+
+<h2 id="outro">Outro</h2>
+
+<p>The bottom line is IOCs is a good starting point but it is not the end of Threat Intel program.  Leverage and use the IOCs and threat intel to your security operation to improve KPIs and pinpointing the attacks before it’s too late.</p>
+:ET

@@ -1,0 +1,116 @@
+I"X<p>This is a list of key combinations and essential shortcuts to use vim text editor. The contents are arranged accoring to the word processing steps. Vim is one useful text editor to learn because there are several vim shortcut plugins available for other popular text editors. For e.g, Sublime Text has vim mode editing package called <em>Vintage Mode</em>.</p>
+
+<p>Relater resource: <a href="http://vimsheet.com/" target="_blank">Vim Cheatsheet</a></p>
+
+<h2 id="cursor-movement">Cursor Movement</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> h	move cursor left
+ j	move cursor down
+ k	move cursor up
+ l	move cursor right
+ w	jump forwards to the start of a word
+ W	jump forwards to the start of a word <span class="o">(</span>words can contain punctuation<span class="o">)</span>
+ e	jump forwards to the end of a word
+ E	jump forwards to the end of a word <span class="o">(</span>words can contain punctuation<span class="o">)</span>
+ b	jump backwards to the start of a word
+ B	jump backwards to the start of a word <span class="o">(</span>words can contain punctuation<span class="o">)</span>
+ 0	jump to the start of the line
+ ^	jump to the first non-blank character of the line
+ <span class="nv">$	</span>jump to the end of the line
+ G	go to the last line of the document
+ 5G	go to line 5</code></pre></figure>
+
+<p>##Insert mode - inserting/appending text</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> i	insert before the cursor
+ I	insert at the beginning of the line
+ a	insert <span class="o">(</span>append<span class="o">)</span> after the cursor
+ A	insert <span class="o">(</span>append<span class="o">)</span> at the end of the line
+ o	append <span class="o">(</span>open<span class="o">)</span> a new line below the current line
+ O	append <span class="o">(</span>open<span class="o">)</span> a new line above the current line
+ ea	insert <span class="o">(</span>append<span class="o">)</span> at the end of the word
+ Esc	<span class="nb">exit </span>insert mode</code></pre></figure>
+
+<p>##Editing</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> i	insert before the cursor
+ r	replace a single character
+ J	<span class="nb">join </span>line below to the current one
+ cc	change <span class="o">(</span>replace<span class="o">)</span> entire line
+ cw	change <span class="o">(</span>replace<span class="o">)</span> to the end of the word
+ c<span class="nv">$	</span>change <span class="o">(</span>replace<span class="o">)</span> to the end of the line
+ s	delete character and substitute text
+ S	delete line and substitute text <span class="o">(</span>same as cc<span class="o">)</span>
+ xp	transpose two letters <span class="o">(</span>delete and <span class="nb">paste</span><span class="o">)</span>
+ u	undo
+ Ctrl+r	redo
+ <span class="nb">.</span>     repeat last <span class="nb">command</span></code></pre></figure>
+
+<h2 id="cut-and-paste">Cut and paste</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> yy	yank <span class="o">(</span>copy<span class="o">)</span> a line
+ 2yy	yank <span class="o">(</span>copy<span class="o">)</span> 2 lines
+ yw	yank <span class="o">(</span>copy<span class="o">)</span> word
+ y<span class="nv">$	</span>yank <span class="o">(</span>copy<span class="o">)</span> to end of line
+ p	put <span class="o">(</span><span class="nb">paste</span><span class="o">)</span> the clipboard after cursor
+ P	put <span class="o">(</span><span class="nb">paste</span><span class="o">)</span> before cursor
+ <span class="nb">dd	</span>delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> a line
+ 2dd	delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> 2 lines
+ dw	delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> word
+ D	delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> to the end of the line
+ d<span class="nv">$	</span>delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> to the end of the line
+ x	delete <span class="o">(</span><span class="nb">cut</span><span class="o">)</span> character</code></pre></figure>
+
+<h2 id="exiting">Exiting</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> :w	write <span class="o">(</span>save<span class="o">)</span> the file, but don<span class="s1">'t exit
+ :wq	write (save) and quit
+ :x	write (save) and quit
+ :q	quit (fails if there are unsaved changes)
+ :q!	quit and throw away unsaved changes</span></code></pre></figure>
+
+<h2 id="search-and-replace">Search and replace</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> /pattern	search <span class="k">for </span>pattern
+ ?pattern	search backward <span class="k">for </span>pattern
+ n		repeat search <span class="k">in </span>same direction
+ N		repeat search <span class="k">in </span>opposite direction
+ :%s/old/new/g	replace all old with new throughout file
+ :%s/old/new/gc	replace all old with new throughout file with confirmations</code></pre></figure>
+
+<h2 id="working-with-multiple-files">Working with multiple files</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">:e filename	edit a file <span class="k">in </span>a new buffer
+:bnext 		go to the next buffer
+:bn	
+:bprev 		go to the previous buffer
+:bp	
+:bd		delete a buffer <span class="o">(</span>close a file<span class="o">)</span>
+:sp filename	open a file <span class="k">in </span>a new buffer and <span class="nb">split </span>window
+:vsp filename	open a file <span class="k">in </span>a new buffer and vertically <span class="nb">split </span>window
+Ctrl+ws		<span class="nb">split </span>window
+Ctrl+ww		switch windows
+Ctrl+wq		quit a window
+Ctrl+wv		<span class="nb">split </span>window vertically
+Ctrl+wh		move cursor to next buffer <span class="o">(</span>right<span class="o">)</span>
+Ctrl+wl		move cursor to previous buffer <span class="o">(</span>left<span class="o">)</span></code></pre></figure>
+
+<h2 id="tabs">Tabs</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">:tabnew		filename
+:tabn filename	open a file <span class="k">in </span>a new tab
+Ctrl+wt		move the current <span class="nb">split </span>window into its own tab
+gt 		move to the next tab
+:tabnext 
+:tabn	
+gT 		move to the previous tab
+:tabprev 
+:tabp	
+<span class="c">#gt	        move to tab number #</span>
+:tabmove <span class="c">#	move current tab to the #th position (indexed from 0)</span>
+:tabclose	close the current tab and all its windows 
+:tabc	
+:tabonly 
+:tabo		close all tabs except <span class="k">for </span>the current one</code></pre></figure>
+
+:ET

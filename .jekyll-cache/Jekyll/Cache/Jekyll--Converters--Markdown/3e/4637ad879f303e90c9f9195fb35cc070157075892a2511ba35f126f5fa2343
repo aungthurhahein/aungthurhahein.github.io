@@ -1,0 +1,28 @@
+I"�<p>For people who are working with terminal all the time, you runs pipeline and tasks and you don’t know whethere it’s finished or not. This small trick will alert you.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#step1: install espeak</span>
+<span class="nv">$sudo</span> apt-get <span class="nb">install </span>espeak
+
+<span class="c">#step2: try </span>
+espeak <span class="s2">"Hello World"</span>
+
+<span class="c">#step3: create several alias to reuse for different alert messages</span>
+<span class="c">#success process</span>
+<span class="nb">alias </span><span class="nv">sp</span><span class="o">=</span><span class="s1">'espeak "process finished successfully"'</span>
+<span class="c">#fail process</span>
+<span class="nb">alias </span><span class="nv">fp</span><span class="o">=</span><span class="s1">'espeak "process failed"'</span>
+
+<span class="c">#example usage</span>
+
+ <span class="c">#!/bin/bash</span>
+ <span class="k">if</span> <span class="o">[</span> <span class="s2">"foo"</span> <span class="o">=</span> <span class="s2">"foo"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo </span>expression evaluated as <span class="nb">true
+    </span>sp
+ <span class="k">else
+    </span><span class="nb">echo </span>expression evaluated as <span class="nb">false
+    </span>fp
+ <span class="k">fi</span>
+
+ </code></pre></figure>
+
+:ET

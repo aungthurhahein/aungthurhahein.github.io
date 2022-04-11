@@ -1,0 +1,93 @@
+I"_<h2 id="intro--aim">Intro &amp; Aim</h2>
+
+<p>This is a gist of tools and softwares that helps for the academic researchers to improve their productivity and organization. The tools are based on personal experience and inputs from the colleagues. Due to my Computer Science background, I like to explore software tools that can automate and make things easier without complication. I categorize the tools by similar product categories with brief explanation of what this tool can help you in the research process.</p>
+
+<h2 id="paperless-literature">Paperless literature</h2>
+
+<p>At the early stage of research, we deal with tons of papers and articles. We print them out..note them and lose them somewhere in the stack of paper. Organizing the printed hard-copy is a time consuming task. What if we can’t find the statement from 1 paper and can’t find them in the stack of paper, it is really frustrating.</p>
+
+<p>Using paper organizer/reference manager is a working solution to solve this problem. (Saving pdf copies of them in a traditional method is ok but still not the optimal solution IMO.)</p>
+
+<p>Options are</p>
+
+<ol>
+  <li><a href="https://www.mendeley.com/">Mendley</a></li>
+  <li><a href="http://endnote.com/">Endnote</a></li>
+  <li><a href="https://www.zotero.org/">Zotero</a></li>
+</ol>
+
+<p>One of these 3 solutions is the best reference manager available at this time of writing. It have several useful features such as annotating the reference,importing and exporting citation,and downloading files and meta directly from the web.</p>
+
+<h2 id="1resources-2resources-3resources">1.Resources 2.Resources 3.Resources</h2>
+
+<p>Another task we do it time by time is searching keywords of the research interests to catch up the trend. For e.g., I search several databases of keywords (Browser Forensic, Digital Forensic,Private Browsing..) to read and review latest publications. There are no academic search engines that cover the entire published researches. <a href="https://www.wikiwand.com/en/List_of_academic_databases_and_search_engines">wiki</a> provides lists of academic databases for various disciplines.</p>
+
+<p>Some of my picks are <a href="https://www.scopus.com/home.uri">Scopus</a> by Elsevier, <a href="http://ieeexplore.ieee.org/Xplore/home.jsp">IEEExplore</a> by IEEE, <a href="http://link.springer.com/">SpringerLink</a> by Springer, <a href="http://citeseerx.ist.psu.edu/index;jsessionid=F6768F5A3C6BDCB0EB693F5C7B3517C0">CiteseerX</a> by Penn State Uni and <a href="https://scholar.google.co.th/">Google Scholar</a>.</p>
+
+<h2 id="writing-without-pain-in-the-neck">Writing without pain in the neck</h2>
+
+<p>I spent a lot of time on this part to discover the ultimate writing tool to write academic paper and articles effectively. Many people are satisfied with MS Office suite. Do writing on Word and draw stuffs on Visio and Excel to handle tabular numeric data. I prefer to avoid using MS Office because I don’t stuck in vendor lock-in. I use Google Docs for writing for my thesis documentation but it is still lack of some features that make the writing experience smooth and easy.</p>
+
+<p>IMO, Latex is painful to get started but it is the most convenient format to write academic articles. Why? Integration with bibliography, reference feature and the most valuable feature is publication templates. <a href="https://www.overleaf.com">Overleaf</a> is my platform of choice for writing latex. It it a web-based academic writing platform with version control and full support of Latex with choice of publisher templates. <a href="https://github.com/alexandervdm/gummi">Gummi</a>is a Latex tool I used for off-line writing.</p>
+
+<p>Other options are</p>
+
+<ol>
+  <li><a href="https://www.authorea.com">Authorea</a></li>
+  <li><a href="https://www.sharelatex.com/">Sharelatex</a></li>
+  <li><a href="https://gingkoapp.com/">Gingko</a></li>
+</ol>
+
+<h2 id="backup-for-the-disaster">Backup for the disaster</h2>
+
+<p>Everyone knows there is a chance that you can lose your data by</p>
+
+<ul>
+  <li>Human error such as accidentally wiping out the project</li>
+  <li>Hardware fault</li>
+  <li>Disaster and theft</li>
+  <li>Other unexpected strange incidents like spilling coffee over the laptop…</li>
+</ul>
+
+<p>For these reasons, it is important to think of a fool-proof method to back up data safely on local and/or remote location. Cloud is a good solution and Google Drive, Dropbox and Microsoft OneDrive is the best solution out there. It’s wise to keep local backup on external HDD or just a thumb-drive. If you are familiar with version control systems, it’s also a good solution since it keeps a backup series of the project.</p>
+
+<h2 id="other-useful-tools">Other useful tools</h2>
+<p>There are also many tools you might need that depend on your project. The following are some of the tools I personally used for different purposes.</p>
+
+<h3 id="note-taking-and-drafting">Note-taking and drafting</h3>
+
+<p>I prefer clean minimal note taking app like <a href="https://www.moo.do/">moo.do</a>. Evernote is also a popular note taking app. If you wants a bit of formatting, try any markdown editor like <a href="https://stackedit.io/editor">stackedit</a>.</p>
+
+<h3 id="online-reading">Online Reading</h3>
+
+<p>I like to highlight and read page directly at the page like similar reading experience from <a href="https://medium.com">medium</a>. There are several browser add-ons to achieve that and my favorite ones are <a href="http://highly.co/">Highly</a> and <a href="https://markticle.com/">Markticle</a>.  <a href="http://grammarly.com/">Grammarly</a> browser addons do several functions including highlight-dictionary that is very useful while reading.</p>
+
+<h3 id="bookmarking">Bookmarking</h3>
+
+<p>There are many searching and saving resources throughout the research process.</p>
+
+<ul>
+  <li>
+    <p><a href="https://getpocket.com">Pocket</a> is my personal favorite for one-clicking saving from your favourite browser with tags support.</p>
+  </li>
+  <li>
+    <p><a href="http://www.pearltrees.com/">Pearltrees</a> provides organizing and collaborating by category of your preferences.</p>
+  </li>
+  <li>
+    <p><a href="http://saved.io/">Saved</a> uses a different apporach compared with other link management services by typing saved.io/ in front of URL to save the page.</p>
+  </li>
+  <li>
+    <p><a href="https://raindrop.io/">Raindrop</a> is for people who like to curate just a photo,video and content like <a href="https://www.pinterest.com">Pinterest</a> style.</p>
+  </li>
+</ul>
+
+<h3 id="productivity">Productivity</h3>
+
+<p>Productivity is something many people chasing for but only some get it to a certain level. Distraction is the main thing that slow down your productivity followed by interruption, laziness and lack of self-motivation and other emotional distress. Time tracking is one thing that most people do with scheduling and planning in many different methods and techniques. <a href="http://pomodorotechnique.com/">Pomodoro</a> is the popular technique to focus on what you are doing and tracking the time with a short and long period break.</p>
+
+<p>Procrastinating needs to beat with scheduling and planning with to-do list and scrum method. There is one product that stand out by blending Pomodoro technique and To-Do list called <a href="https://pomotodo.com/app">Pomotodo</a> and it works pretty well for me. <a href="https://trello.com/">Trello</a> becomes a standard tool for scrum task and tracking the progress. As for serious time tracking, tools like <a href="https://www.rescuetime.com/">Rescuetime</a> works nicely with reporting on how much time you spend on which apps. <a href="https://www.toggl.com">Toggl</a> is also a great time tracking platform but it’s not available for free.</p>
+
+<h3 id="outro">Outro</h3>
+<p>I hope I help you on your search of tools and tips to improve your research process and I left off some topics like diagramming and statistics tools to limit the length of this blog. Have a good day and fight for science!</p>
+
+:ET

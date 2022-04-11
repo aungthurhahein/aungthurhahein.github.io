@@ -1,0 +1,11 @@
+I"z<p>I just found out that there is a document browser called <a href="http://zealdocs.org/" target="_blank">Zeal</a> which is inspired by <a href="http://kapeli.com/dash" target="_blank">Dash</a> for MacOS. You can save dozens of reference documents into your machine for offline browsing.</p>
+
+<p>You can install to your ubunut machine by adding these ppas:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">//QT5 dependencies <span class="o">&amp;&amp;</span> zeal ppa
+<span class="nb">sudo </span>add-apt-repository ppa:ubuntu-sdk-team/ppa <span class="o">&amp;&amp;</span>
+<span class="nb">sudo </span>add-apt-repository ppa:jerzy-kozera/zeal-ppa <span class="o">&amp;&amp;</span>
+<span class="nb">sudo </span>apt-get update <span class="o">&amp;&amp;</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>zeal</code></pre></figure>
+
+:ET

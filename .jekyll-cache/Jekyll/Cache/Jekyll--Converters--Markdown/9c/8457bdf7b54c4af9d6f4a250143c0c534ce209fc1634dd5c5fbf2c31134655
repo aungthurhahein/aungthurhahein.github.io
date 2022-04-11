@@ -1,0 +1,48 @@
+I"�<h2 id="ossec"><a href="http://www.ossec.net/" target="_blank">OSSEC</a></h2>
+
+<p>I learned about IDS at network class but doesn’t have a chance to try. Like people knows,there are two types of IDS; Host Based IDS and Network Based IDS. The IDS type I try out is the former type.</p>
+
+<h3 id="purpose">Purpose</h3>
+<p>Since I am working on browser forensic, the first experiment is to know how the browser changes the file integrity for different stages and where the changes happen to the host machine. This is not the only functionalities of OSSEC. It can do more than file intrgrity checking.</p>
+
+<p>For more information about OSSEC functionalites: <a href="http://www.ossec.net/?page_id=165" target="_blank"> OSSEC Feature</a></p>
+
+<h3 id="architecture">Architecture</h3>
+
+<p>OSSEC can works in two modes: agent or agentless. It depends on what you wanna do. If you want a centralized server to monitor the rest of the machines in the network, the manager-agent mode is recommended. Agentless mode is to monitor one machine,which can’t install agent program, without the monitoring server.(however,there is no binary file for windows OS for that mode.)</p>
+
+<p>About internalarchitecture: <a href="http://ossec.net/ossec-docs/auscert-2007-dcid.pdf" target="_blank">OSSEC Log Analysis/Inspection Architecture</a></p>
+
+<p>###Installation</p>
+
+<p>Installation is quite straightforward and easy to follow. The first step is setup OSSEC manager to centralized server.</p>
+
+<p>After that, install the agent progam to the servers you want to monitor. The exact provess will be varied upon the operating systems you are working on and your objective of installing OSSEC.</p>
+
+<p>For more information: <a href="http://www.ossec.net/doc/manual/installation/index.html" target="_blank">OSSEC Installation manual</a></p>
+
+<h3 id="setup">Setup</h3>
+<p>For my setup, I installed OSSEC-HIDS on a Ubuntu machine and create a guestOS as a TEST-Server.This is the general information about the setup.</p>
+
+<ul>
+  <li>make a guest-OS,windows 8 on virtualbox</li>
+  <li>Host machine: Ubuntu 12.04 LTS</li>
+  <li>RAM Share: 1024 MB</li>
+  <li>HD: dynamic allocation up to 15GB</li>
+</ul>
+
+<p>For my experience, there are some tips I can give at this point:</p>
+
+<p>Check your log at both manager and agent to see what going on. Make sure the firewall and iptables configuration to allow the port and ip-address of the both parties(to communicate). If you have no idea how or what, you should not be reading this.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">//Log file location
+<span class="k">*</span>NIX: /var/ossec/logs/ossec.log
+Windows: C:Program Files/ossec/agentossec.log.
+
+Free chapter about OSSEC-HIDS COnfiguration: &lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">"http://www.ossec.net/ossec-docs/OSSEC-book-ch3.pdf"</span><span class="o">&gt;</span> OSSEC HIDS Configuration &lt;/a&gt;</code></pre></figure>
+
+<h3 id="is-that-it">Is that it?</h3>
+
+<p>No. This book can make you know more about OSSEC: <a href="http://www.amazon.com/OSSEC-Host-Based-Intrusion-Detection-Guide/dp/159749240X" target="_blank">OSSEC Host-Based Intrusion Detection Guide</a></p>
+
+:ET

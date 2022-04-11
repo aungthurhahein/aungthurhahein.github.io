@@ -1,0 +1,51 @@
+I"y<p>I’ve been looking for a list of shortcut for Lighttable IDE and to make some custom keymaps for my personal preferences. I can’t find list of default key combinations easily.</p>
+
+<p>This is the list of some essential keymaps from default.keymap file of Lighttable.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#app</span>
+ctrl-shift-f	search-box
+ctrl-space	commands
+ctrl-shift-n	New Windows
+ctrl-shift-o 	open file
+ctrl--		zoom out
+ctrl-n		new file
+ctrl-shift-d	search docs
+ctrl-o		search files
+ctrl-<span class="o">=</span>		zoom <span class="k">in</span>
+
+<span class="c">#browser tab</span>
+ctrl-r		refresh browser tab
+ctrl-l		browser url focus
+enter		browser url bar navigate
+
+<span class="c">#editor</span>
+ctrl-enter	inline evaluation
+ctrl-d		view docs 
+ctrl-,		unjump
+ctrl-.		jump
+ctrl-shift-s	save file as
+ctrl-l		goto-line
+ctrl-shift-enter eval-editor
+ctrl-+	fold-code
+ctrl-s	save file
+
+<span class="c">#tabs</span>
+cltr+ number	jump to tab <span class="k">in </span>number position
+ctrl+shift+[	previous tab
+ctrl+shift+]	next tab
+ctrl-w		tab close</code></pre></figure>
+
+<p>To make a custom user keymap, ctrl-space will popup commands panel and search “Settings:user keymap” and add your keymap on that file.</p>
+
+<p>The following is the list of the keymaps I created recently:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="o">[</span>:editor <span class="s2">"alt-w"</span> :editor.watch.watch-selection]
+ <span class="o">[</span>:editor <span class="s2">"alt-shift-w"</span> :editor.watch.unwatch]
+ <span class="o">[</span>:editor <span class="s2">"ctrl-/"</span> :comment-selection]
+ <span class="o">[</span>:editor <span class="s2">"ctrl-."</span> :uncomment-selection]
+ <span class="o">[</span>:editor <span class="s2">"ctrl-alt-o"</span> :workspace.show]
+ <span class="o">[</span>:editor <span class="s2">"shift-tab"</span> :unindent-selection]
+ <span class="o">[</span>:editor <span class="s2">"ctrl-space"</span> :auto-complete]
+ <span class="o">[</span>:app <span class="s2">"ctrl-shift-c"</span> :toggle-console]</code></pre></figure>
+
+:ET

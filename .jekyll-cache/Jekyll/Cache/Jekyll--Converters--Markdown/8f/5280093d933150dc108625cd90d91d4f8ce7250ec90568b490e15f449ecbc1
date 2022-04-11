@@ -1,0 +1,51 @@
+I"�<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>I suggests you to read this essay [on cybersecurity and being targeted](http://www.kennethreitz.org/essays/on-cybersecurity-and-being-targeted) before continuing this entry.
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>The cyber-attacks are getting more focus and intelligent than ever. The attackers have specific objectives, methodologies and strategies to achieve their goals with high persistence. So, Human is the major vulnerable point in organization security and by strengthening your personal security, you can avoid from being a poential vulnerable target. Traditional username/password is not a strong and secure authentication method anymore, which is the reason why many online services are exercising multi-factor authentication <a href="https://www.wikiwand.com/en/Multi-factor_authentication">MFA</a> and <a href="https://help.github.com/articles/about-two-factor-authentication/">2FA via Github</a>. This blog entry is to explain a gentle introduction of multi-factor authentication in a simple and uncomplicated manner for general public.</p>
+
+<h3 id="multi-factor-authentication-mfa">Multi-Factor Authentication (MFA)</h3>
+
+<p>This is not a new concept for everyone. If padlock is not secure enough, we add a new layer of security with access card, home security system or an extra padlock to tighten the security. Withdrawing cash from ATM machine requires PIN number (something you know) and ATM Card(Something you have).</p>
+
+<p>MFA contains at least 2 of the following authentication mechanisms to get access to a certain system which are</p>
+
+<ul>
+  <li>Knowledge (something you know; passwords,PIN)</li>
+  <li>Possession (something you have; Mobile Phone, Access Card, Contact Card,Tokens)</li>
+  <li>Inherence (something you are; Fingerprint, Iris, Face, Voice)</li>
+</ul>
+
+<h3 id="2nd-factor-authentication-2fa">2nd Factor Authentication (2FA)</h3>
+
+<p>At this time, the most popular and practical 2FA authentication method includes user’s mobile device by sending SMS of the verification code or Authentication app that generate 6 digit tokens. I personally prefer authentication app since it’s a bit more convenient than SMS messages. Another reason is that an attacker can exploit your SIM card or simply call the service provider for a new sim card. Authenticator app like <a href="https://lastpass.com/auth/">Lastpass Authenticator</a> generates token in a timely manner and also have a single-tap login feature.</p>
+
+<p>IMO, <a href="https://fidoalliance.org/specifications/overview/">FIDO</a> Protocols presents reliable authentication option but it needs additional device or device with biometric modalities support. At this time of writing, 2FA is still the best authentication option for the majority of on-line web services with some painful drawbacks. <a href="https://twofactorauth.org/">2FA</a> shows a list of websites that supports 2FA authentication options.</p>
+
+<p>The following section is a generic starter guideline to improve the security of online services:</p>
+
+<h4 id="1-use-password-manager">1. Use Password Manager</h4>
+
+<p>it’s better than same passwords for all websites. Use 1 hardcore strong master password with high diversity and combination. It improves your productivity by autofilling the username and passwords.</p>
+
+<p>Services: <a href="https://lastpass.com/">Lastpass</a>, <a href="https://www.dashlane.com/">Dashlane</a>, <a href="https://www.logmeonce.com/">LogmeOnce</a>, <a href="https://keepersecurity.com/">Keeper</a>, <a href="https://www.stickypassword.com/lp/pcmag?utm_source=pcmag2016&amp;utm_medium=review-1y&amp;utm_term=mva&amp;utm_content=lp-sp&amp;utm_campaign=2016-06_pcmag&amp;campaign_affid=d-pcmaga-lp201606">StickyPassword</a></p>
+
+<h4 id="2-turn-on-2fa-authentication-option">2. Turn on 2FA authentication Option</h4>
+
+<p>I know it is tedious and time consuming but it’s better than exploiting your data to the attackers’ hands.
+So, turn on 2FA authentication via email, SMS, or Phone Call.</p>
+
+<h4 id="3-use-2fa-authenticator-app-softtoken">3. Use 2FA authenticator app (Softtoken)</h4>
+<p>SoftToken vs SMS is a controversial topic among security experts and I prefer Softtoken app rather than SMS 2FA option. It’s more convenient(QR Code Scan), No additional cost but to keep in mind that it’s also an application that can be compromised by malwares to transmit TOTP to elsewhere.</p>
+
+<p>Services: <a href="https://www.rsa.com/en-us/products-services/identity-access-management/securid/software-tokens">RSA SecurID Software Token</a>, <a href="https://lastpass.com/auth/">Lastpass Authenticator</a>, <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Google Authenticator</a>, <a href="https://www.microsoft.com/en-us/store/p/authenticator/9wzdncrfj3rj">Microsoft Authenticator</a></p>
+
+<h4 id="4-spend-few-dollars-on-hardware-tokensusb-security-keys">4. Spend few dollars on Hardware tokens/USB Security Keys</h4>
+
+<p>Hardware tokens are around for a while and it provide stronger security than SMS but it’s not necessary and provided by most of the online services. FIDO USB Security Key (USB Dongles) such as <a href="https://www.yubico.com/products/yubikey-hardware/">Yubikey</a> are more practical for daily basis usage of online web services. The leading online company such as Google, Github, and Dropbox are started to adopt U2F options for the system. These tiny keys don’t need any drivers and can use it directly at any Operating System platforms with ease. The USB keys are also pretty robust and can attach it with your physical keys. Check <a href="http://www.dongleauth.info/">DongleAuth</a> to see which sites are supporting USB Security Keys.</p>
+
+<h4 id="5-stay-tune-for-security-trends-and-best-practices">5. Stay tune for security trends and best practices</h4>
+
+<p>Knowledge plays a critical role in securing your personal data and preventing the potential attacks. Follow the InfoSec latest news of security experts from the mainstream media channels like twitter and learn what to yay and nay.</p>
+
+:ET

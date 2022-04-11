@@ -1,0 +1,31 @@
+I"�<blockquote>
+  <p>This is just a thought on maintaining source code on local system about the easiest and the most convenient way to avoid repetitive process.</p>
+</blockquote>
+
+<h3 id="code-in-cloud">Code in Cloud</h3>
+
+<p>As for projects working in several different computer,I think the best way to control version of the source code is to upload to cloud storage services like Google Drive or Dropbox and so on. It’s working quite well for small to mid-size projects.</p>
+
+<p>For large scale projects, storage size might be a problem. The purpose of keeping inside cloud storage syncs the whole directory across your work and home PC. It skips the step of pulling the repo and merging since <strong>.git</strong> folder is syncing. It is also become automatic backup plan since files are syncing at cloud storage. As for security, it is suitable for open-source project but it might need to perform security measure for close-source projects.</p>
+
+<h3 id="auto-commit-the-project">Auto-commit the project</h3>
+
+<p>As for committing the project, it can semi-automate with a simple bash script like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>#! /bin/bash	
+git pull
+git add -A
+git commit -m $1
+git push origin master
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>After that, it is possible to commit by providing commit message as argument. Username and password might be necessary to provide according to your git settings on the system. Make sure to write <em>.gitignore</em> file to avoid backuping unnecessary files and sensitive information.</p>
+
+<p>If you want a weekly backup of the project folder on Linux system, create a crontab to do the routine jobs for you. If you don’t know about <a href="https://duckduckgo.com/?q=crontab+examples&amp;ia=answer">crontab</a>, it’s easy and worth to learn it.</p>
+
+:ET

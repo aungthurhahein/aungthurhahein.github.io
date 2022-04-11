@@ -1,0 +1,7 @@
+I"<p>Now, my choice of desktop environment for Linux production machine is xfce. I am stuck at making new custom launcher because it is missing in my whisker menu somehow.</p>
+
+<p>For guys who having same problem, this is the command to get create launcher wizard for xfce.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>gksu <span class="nt">-l</span> <span class="s1">'exo-desktop-item-edit --create-new /usr/share/applications/'</span></code></pre></figure>
+
+:ET

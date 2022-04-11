@@ -1,0 +1,13 @@
+I"w<p>Unlike Virtualbox, there is no easy way to clone the GuestOS of VMWare VM.</p>
+
+<p>These are the steps to perform to get a clone of desire VM.</p>
+
+<ol>
+  <li>Copy/Paste the entire folder of VM you want to clone to another instance. E.g. Copy all the files from <em>Windows 8 x64</em> to a new folder,let say <em>windows 8 Clone</em>.</li>
+  <li>Replace all file names with <em>Windows 8 x64</em> to <em>windows 8 Clone</em>. E.g file name of <em>Windows 8 x64.vmdk</em> to <em>Windows 8 Clone.vmdk</em> and so on.</li>
+  <li>Edit .vmx and .vmxf file with preferred text editor and replace all occurrences of <em>Windows 8 x64</em> with <em>Windows 8 Clone</em>.</li>
+  <li>Now open VMWare Player and play the new cloned VM. If it doesn’t display in the VM list, open it from the file menu.</li>
+  <li>You will get a pop-up window and click <em>I copied it</em> button.</li>
+</ol>
+
+:ET

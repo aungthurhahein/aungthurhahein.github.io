@@ -1,0 +1,113 @@
+I"�<p>Well, It is not a choice.
+I have to work on Linux platform since I joined a part time job at biotech gene annotation lab. Now,the website was settled and development is done. The researcher told me to analyze DNA sequence datasets and blah blah…</p>
+
+<p>So,Ubuntu becomes my home because most of bioinformatics tool are Linux binary applications. Let’s say around 6 months, this Linux distro fails me 3 times. Even though it said “Ubuntu 12.04 LTS(Long Term Support)”. You should call it as “Long Time to Stable”.</p>
+
+<p>Anyway,I have to use it and I try to find the best applications. Here is the list for next Ubuntu  installation after boot failure.</p>
+
+<h3 id="entertainment">Entertainment</h3>
+
+<ol>
+  <li>Clementine: music player with lots of features</li>
+  <li>Nuvola player: online music players for services such as 8tracks,Deezer,Rdio …</li>
+  <li>last.fm- last.fm scrobbling client</li>
+  <li>Miro- online video player</li>
+  <li>VLC player- media player</li>
+  <li>RadioTray- light-weight online radio player</li>
+  <li>Puddletag - Music Tag editor</li>
+  <li>Mustique- iTunes like light-weight beautiful music player</li>
+  <li>Minitube- Youtube Desktop player</li>
+</ol>
+
+<h3 id="internet">Internet</h3>
+
+<ol>
+  <li>Chrome &amp; Chrominium- browser</li>
+  <li>Polly- Twitter Client</li>
+  <li>Deluge- Bittorrent Client</li>
+  <li>Dropbox - Dropbox Client</li>
+  <li>InSync- GDrive Client</li>
+  <li>Everpad- Evernote Client</li>
+  <li>Skype - Video Conferencing app</li>
+  <li>Teamviewer - PC Remote tool</li>
+  <li>Viber- Viber for PC(still in development and it sucks)</li>
+  <li>Wireshark - Network analysis tool</li>
+  <li>Filezilla- FTP Client</li>
+  <li>Pidgin- Instant Messenger</li>
+</ol>
+
+<h3 id="development-tools">Development Tools</h3>
+
+<ol>
+  <li>SublimeText- text editor</li>
+  <li>Bracket- another text editor from adobe</li>
+  <li>LightTable- Revolutionary text editor (still in development)</li>
+  <li>Eclipse- multi-language iDE</li>
+  <li>Emacs &amp; Vim- father of sublime text</li>
+  <li>Retext &amp; UberWriter- Markdown editor</li>
+  <li>SmartGit- GUI Git Client</li>
+  <li>SmartSynchronize- File Merge tool</li>
+  <li>Dia- Diagramming tool</li>
+  <li>Gitblit- Tool to deploy local Git server</li>
+  <li>Putty- Telenet/SSH client</li>
+</ol>
+
+<h3 id="office">Office</h3>
+
+<ol>
+  <li>Libre Office Suite</li>
+  <li>Evolution- Mail Client(setup in pain in the ass)</li>
+  <li>Geary- Another light-weight Mail Client(suck!!)</li>
+</ol>
+
+<h3 id="graphics--reader">Graphics &amp; Reader</h3>
+
+<ol>
+  <li>Comix- comic reader(cbz,crt..)</li>
+  <li>qcomicbook- another comic reader</li>
+  <li>chmSee- .chm format reader</li>
+  <li>Adobe Pdf- Pdf reader</li>
+  <li>Scribus- DTP tool</li>
+  <li>shotwell- photo viewer</li>
+  <li>GIMP- Image editor</li>
+</ol>
+
+<h3 id="utility--tweak-tools">Utility &amp; Tweak tools</h3>
+
+<ol>
+  <li>Htop- command-based task monitoring tool</li>
+  <li>Synaptic Package Manager- Application Package manager</li>
+  <li>Conky Manager- Manager for Conky</li>
+  <li>Bumblebee- tools to manage optimus-based hybrid graphic driver</li>
+  <li>Deepin Software Center- Alternative software center</li>
+  <li>Caffine- tool to temporarily prevent the activation of both
+ the screen saver and the sleep mode</li>
+  <li>F.lux - tool to change monitor lighting based on location and time</li>
+  <li>Jupiter- Power Management tool</li>
+  <li>dconf Editor- Low level system configuration manager</li>
+  <li>Y PPA Manager- GUI PPA manager</li>
+  <li>Variety- automatic wallpaper changer</li>
+  <li>Cariodock- Desktop Docker</li>
+  <li>Terminology- Best terminal emulator</li>
+  <li>bpipe- Script pipeline manager</li>
+  <li>dphys-swapfile- automatic swapfile manager</li>
+  <li>Natural Scrolling- Mac Like natural scrolling supports for touchpad and mouse</li>
+  <li>Ubuntu-Tweak- various tweak tool for Ubuntu</li>
+  <li>Bleachbit- System Cleaner</li>
+  <li>Gloobus Preview- Mac Like instant file viewer</li>
+  <li>Synapse- Universal Search tool in one click away</li>
+  <li>PlayonLinux- front-end tool for Wine, Windows env emulator</li>
+  <li>Oracle VM- Virtual Box</li>
+</ol>
+
+<h3 id="themes--grooming-tools">Themes &amp; Grooming tools</h3>
+
+<ol>
+  <li>Numix- favourite GTK Theme</li>
+  <li>Moka- best icon theme with daily update</li>
+  <li>Moka- companion window theme of Moka</li>
+  <li>CompizConfigSettingManager(CCSM)- desktop animation tweak tool for high-end machine</li>
+</ol>
+
+<p>Yeah..I know.It’s exhausting. Who said Linux platform lacks of application? You just need to look for it.</p>
+:ET

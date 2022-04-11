@@ -1,0 +1,21 @@
+I"�<p>This is just a git flow to recall when I am working with gh-pages and master branches.</p>
+
+<p>Either you are working on gh-pages directly because I don’t want to bother trying to sync master branch with gh-pages all the time when I push commits.
+This is the normal flow of pushing commit from local branch.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git branch
+<span class="nv">$ </span>git status
+<span class="nv">$ </span>git add <span class="nt">-A</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s1">'commit msg'</span>
+<span class="nv">$ </span>git push origin gh-pages</code></pre></figure>
+
+<p>Let’s say after a milestone or a version, gh-pages should update with master branches. <em>rebase</em> plays a big role in this part.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#switch to master branch</span>
+<span class="nv">$ </span>git checkout master
+<span class="nv">$ </span>git rebase master
+<span class="nv">$ </span>git push origin master
+<span class="c">#back to gh-pages branch</span>
+<span class="nv">$ </span>git checkout gh-pages</code></pre></figure>
+
+:ET

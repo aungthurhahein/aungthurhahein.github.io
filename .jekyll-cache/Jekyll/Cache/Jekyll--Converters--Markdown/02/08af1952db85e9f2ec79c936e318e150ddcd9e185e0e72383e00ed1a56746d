@@ -1,0 +1,22 @@
+I"<p>This is just a one-liner note to set up proxy for Ubuntu with authentication Setting up proxy at browser doesn’t affect terminal applicaitons such as aptitute package and so on. Also, system wide proxy requies you to touch network configuration like iptables. There are two easiest way to do.</p>
+
+<p>There are 2 main files you should set up proxy:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> /etc/apt/apt/apt.conf <span class="c">#Acquire::</span>
+ /home/user/.bashrc <span class="c">#export </span></code></pre></figure>
+
+<p>For apt.conf,use vim, gedit or nano to open the file and add the proxy for each network protocols in the following format:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Acquire::http::proxy <span class="s2">"http://username:password@proxy.server:port"</span><span class="p">;</span>
+Acquire::https::proxy <span class="s2">"http://username:password@proxy.server:port"</span><span class="p">;</span>
+Acquire::ftp::proxy <span class="s2">"http://username:password@proxy.server:port"</span><span class="p">;</span></code></pre></figure>
+
+<p>Alternative way is to put the following command in to .bashrc profile.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">http_proxy</span><span class="o">=</span>http://username:password@proxy.server:port
+<span class="nb">export </span><span class="nv">https_proxy</span><span class="o">=</span>http://username:password@proxy.server:port
+<span class="nb">export </span><span class="nv">ftp_proxy</span><span class="o">=</span>http://username:password@proxy.server:port</code></pre></figure>
+
+<p>Plain passwords in file is bad idea but this is the most straightforward methond with no headache.</p>
+
+:ET

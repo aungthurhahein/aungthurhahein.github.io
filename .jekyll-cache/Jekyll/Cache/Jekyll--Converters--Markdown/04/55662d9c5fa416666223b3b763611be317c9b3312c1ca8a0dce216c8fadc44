@@ -1,0 +1,26 @@
+I"y<p>Google is planning to face-lift Google Chrome ver. 50 with <a href="https://www.google.com/design/spec/material-design/introduction.html">Material Design</a> according to
+<a href="http://www.webdesignerdepot.com/2016/02/google-redesigns-chrome-browser-for-material-design/">Web Design Depot</a>.</p>
+
+<p>Currently, Chrome is version 48 on my Debian system. I found a way to enable Material Design to see an early look by the following way:</p>
+
+<ol>
+  <li>
+    <p>Go to <em>chrome://flags/</em>.</p>
+  </li>
+  <li>
+    <p>Look for <em>“Material design in the browser’s top chrome”</em> and choose <em>“Material”</em> from dropdown list.</p>
+  </li>
+  <li>
+    <p>Look for <em>“Enable Material Design downloads”</em> and enable to change downloads page to MD UI.</p>
+  </li>
+  <li>
+    <p>Look for <em>“Enable material UI for PDF”</em> and enable it to change PDF viewer to MD UI.</p>
+  </li>
+</ol>
+
+<p>Material settings page is enable by default and it can be viewed by “chrome://md-settings/”. However, some functions are not working fully yet.</p>
+
+<p>I leave out screen shots for your excitement!</p>
+
+<p>Cheers!</p>
+:ET

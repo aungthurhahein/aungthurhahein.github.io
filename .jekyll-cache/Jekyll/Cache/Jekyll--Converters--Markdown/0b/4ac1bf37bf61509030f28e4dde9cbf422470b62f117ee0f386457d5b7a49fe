@@ -1,0 +1,2 @@
+I".<p>This is just a one-liner note to set up proxy for Ubuntu with authentication Setting up proxy at browser doesn’t affect terminal applicaitons such as aptitute package and so on. Also, system wide proxy requies you to touch network configuration like iptables. There are two easiest way to do.</p>
+:ET

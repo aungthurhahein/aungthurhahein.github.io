@@ -1,0 +1,15 @@
+I"e<p>For some stupid reason, I updated one server password and forget to note down and restart the system. Then, the headache begins….</p>
+
+<p>At first, I am not so worried that I knew we can <a href="http://www.ubuntulinuxguide.com/reset-root-password-ubuntu/">reset password</a> from ‘Drop to root shell prompt’ through recovery mode. However, my system doesn’t come up recovery menu. It shows me to type the root password but don’t give me enough time to type the whole password. (Weird!)</p>
+
+<p>By googling a bit, run into this <a hre="http://askubuntu.com/questions/326528/how-to-boot-to-the-recovery-mode-if-it-is-not-listed-in-grub#326553">post</a>, which suggests me to edit the boot command manually to get recovery menu. At this time, it gives me enough time to type my root password and reset login password.</p>
+
+<p><strong>Don’t forget to set root password of your ubuntu and its variants’ system.</strong> Because if there is no root password, someone who has access to your physical machine can reset the password in 2 minutes. It’s easy to set up root password. Look at the following command:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#set up root password</span>
+
+<span class="nb">sudo </span>passwd root
+
+<span class="c">#Enter your password (sudo user password)</span></code></pre></figure>
+
+:ET

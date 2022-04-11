@@ -1,0 +1,34 @@
+I"�<h2 id="av-is-not-enough-protection-for-the-new-era-of-cyber-attack-paradigm">AV is not enough protection for the new era of cyber attack paradigm</h2>
+<p>Recently, I’ve been using more than AV for my work PC to tighten the security. The landscape of the attackers is expanding to more scary things like ransomware attacks and I think it is important for everyone to understand what is <a href="https://www.nomoreransom.org/ransomware-qa.html">ransomware</a>. <a href="https://www.youtube.com/watch?v=FV-HW3NYdF8">ESET Ransomware Explained(vid)</a> is also a short nice video of what ransomware capable of. AV can’t detect and prevent them. The attackers are more clever than ever to construct a payload that can exploit the system without the knowledge of AVs. Behavioral monitoring is necessary to detect these next generation attacks. There is ton of security practices for end-users to avoid these exploits from getting inside the system. Check <a href="https://www.nomoreransom.org/prevention-advice.html">NoMoreRansom</a> project for preventive measures. To get latest news and ransomware information, <a href="http://ransomwares.net/">Ransomwares</a> is a great source. <a href="https://www.sophos.com/en-us/lp/ransomware.aspx">Sophos Anti-Ransomware kit</a> contains impressive resource to learn about ransomwares.</p>
+
+<h2 id="preventive-measures">Preventive Measures</h2>
+<p>This is the list of security tools that we can use to prevent the rasomware and exploits.</p>
+
+<h3 id="data-backup-scheme">Data backup scheme</h3>
+<p>There are several ways to backup your data; cloud back up or hardware appliances or both. <a href="http://www.lacie.com/as/en/personal/">Lacie</a> makes high-end storage products but costly. I uses <a href="https://www.wdc.com/products/portable-storage/my-passport.html">WD Passport</a> that capable of hardware encryption and utility program that backup data automatically.  For insensitive data, it is “ok” to back up to cloud storage services but keep in mind that data is at risk.</p>
+
+<h3 id="network-monitoring-tool">Network Monitoring tool</h3>
+
+<p>Yes. Turn on default Windows Firewall. It’s a must. What we can do more is by using a firewall with advanced features that give you visual information and alerts on real-time of network traffic and new initiated connections. I use <a href="https://www.glasswire.com/">glasswire</a> for this purpose and free version is a good start for everyone. The alternatives are <a href="https://www.comodo.com/home/internet-security/firewall.php">Comodo Firewall</a>, <a href="https://www.softperfect.com/products/networx/">NetWrox</a>, and so on.</p>
+
+<h3 id="endpoint-security-solutions">Endpoint Security solutions</h3>
+
+<p>There are several solutions that detects prevents malwares and ransomware attacks. These tools monitor and detect the behaviors of ransomwares continuously and remediate the exploits. Some popular vendors are Sophos, Bitdefender, Kapersky, Trend Micro, Malwarebytes, Sophos, Carbonblack, and so on. Do the research for the best product that can prevent evolved and sophisticated ransomwares before selecting it.</p>
+
+<h2 id="post-ransomware">Post-Ransomware</h2>
+<p>Ok! we fail to protect ourselves. Before paying to the devil attackers, these are the process we can try to decrypt/recover ransomware.</p>
+
+<h3 id="ransomware-decryptors">Ransomware Decryptors</h3>
+<p>For some common rasomware variants, you can check decryptors tool at <a href="http://ransomwares.net/decryptor-tools/">Ransomwares</a>. <a href="https://www.nomoreransom.org/decryption-tools.html">NoMoreRasomware</a> also have a collection of decryptors from R&amp;D team of several security vendors.</p>
+
+<h3 id="community-help">Community Help</h3>
+<p>If the decryptors are not working, <a href="https://www.nomoreransom.org/crypto-sheriff.php">Crypto Shrieff</a> is a community program to fight rasomware and help you to decrypt the keys.</p>
+
+<h3 id="data-recovery-solutions">Data Recovery Solutions</h3>
+<p>This is for the scenario that you don’t have any backups and none of the above steps work. <a href="https://www.prosofteng.com/data-rescue-recovery-software/">Prosoft</a>, <a href="https://www.krollontrack.com/products/data-recovery-software/">KrollonTrack</a> and <a href="http://www.seagate.com/as/en/tech-insights/data-loss-and-recovery-solutions-master-ti/">SEAGATE</a> offers great data recovery programs that you can try without buying at first. In that way, you can evaluate how many percentage of data loss can recover.</p>
+
+<p>If you have the big question of why we are bothering recover tool since it costs money as well as paying the attackers. Check the answer from this <a href="https://www.powerdatarecovery.com/data-recovery-resources/recover-files-ransomware.html">Should We Recover Files From Ransomware – Is It Safe</a>.</p>
+
+<h2 id="epilogue">Epilogue</h2>
+<p>Ransomware is a new breed and not as popular as malwares or virus. However, there is a great chance that it can be infected our system. Attackers are taking advantages of end-user having no-knowledge on this attack type and penetrating through the vulnerabilities of the system easily. So, upgrade our knowledge and update the endpoint security stacks to attack against ransomwares.</p>
+:ET

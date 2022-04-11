@@ -1,0 +1,21 @@
+I"e<p>I was having a problem accessing mysql from terminal and get this error.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Can<span class="s1">'t connect to local MySQL server through socket '</span>/var/run/mysqld/mysqld.sock<span class="s1">'</span></code></pre></figure>
+
+<p>After spending about 30 mins, I found out that the error comes from configuration of MySQL and there is no socket file on the default file location.</p>
+
+<p>To solve this,follow these steps.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#1.look for socket file</span>
+<span class="nv">$ </span>find /opt/lampp <span class="nt">-name</span> <span class="s2">"*.sock"</span>
+<span class="c">#output</span>
+/opt/lampp/var/mysql/mysql.sock
+
+<span class="c">#2.edit the configuration file with your favorite editor</span>
+<span class="nv">$ </span><span class="nb">sudo </span>gedit /etc/mysql/my.cnf
+<span class="c">#3.replace all socket location with the output from previous command.</span></code></pre></figure>
+
+<p>Now,run mysql command again and it should be working. If the problem is still continuing, please check that the server is running and also make sure about the port and bind-address. Log files(/var/log/mysql/mysql.log &amp; /var/log/mysql/error.log) can give you clues too.</p>
+
+<p>Happy Querying…</p>
+:ET

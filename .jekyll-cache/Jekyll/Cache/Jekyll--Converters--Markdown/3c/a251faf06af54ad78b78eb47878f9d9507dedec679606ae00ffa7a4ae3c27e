@@ -1,0 +1,26 @@
+I"�<h3 id="why-vim">Why Vim?</h3>
+<p>Vi Improved is the most advanced terminal text editor and I don’t need to point out its awesomeness here. For hardcore keyboard lover and people comfortable working at terminal, VIM is the best friend you can get for writing scripts, codes,a blog post or anything. 
+Another advantage about learning vim mode and its shortcuts to navigate,modify text is that it is available as plug-ins for other text editors and IDEs. For instance, SublimeText,Brackets,Atom have vim plug-ins to imitate similar environment. So, the point that you don’t need to learn new shortcuts and key combinations to change a text editor. Just go to vim mode and work on.</p>
+
+<h3 id="nowwhat">Now..What?</h3>
+<p>This article is about gathering sources and information for starters and also for people who are already using VIM. I will list from basic fundamental usage of vim to installing plug-ins and modifying configuration files to improve user experience.</p>
+
+<h3 id="basic-of-vim">Basic of VIM</h3>
+<p>Open terminal and type <strong>vimtutor</strong> to learn basic navigation and text editing of vim. <a href="http://www.openvim.com/tutorial.html" target="_blank">Interactive Vim Tutorials</a> is also a good place to start learning vim. I also wrote a blog post about <a href="http://aungthurhahein.github.io/2014/11/07/All-shortcuts-for-vim/">VIM shortcuts</a>. Learning depth for terminal users will be much easier than new terminal users or people who don’t use terminal at all(just use notepad or something with GUI).</p>
+
+<p>This blog series,<a href="http://benmccormick.org/learning-vim-in-2014/">learning vim in 2014</a> is also a advanced source for starters who got familiar with basic shortcuts and usage of VIM.</p>
+
+<p>For guys with no idea what to do after installing vim, check out <a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">Learning Vim Progressively</a>.</p>
+
+<h3 id="configuring-vim-and-plug-ins-installation">Configuring VIM and Plug-ins Installation</h3>
+<p>There are so many ways to configure VIM to meet your preferences. For a serious configuration freaks, the easiest way is to check out<a href="http://vimconfig.com/" target="_blank">Vim Config:Sample and Sane vim configuration</a>. You can browse github to see tons of configuration files by serious configuration freaks.</p>
+
+<h3 id="plug-ins-and-its-managers">Plug-ins and its managers</h3>
+<p>There are 2 main plug-in managers(<a href="https://github.com/gmarik/vundle" target="_blank">vundle</a>,<a href="http://www.vim.org/scripts/script.php?script_id=2332" target="_blank">pathogen</a>) to improve UI, to provide various language supports and to get other advanced text editing features. Personally, I prefer vundle and it is easy to manage and install plug-ins. <a href="http://www.bestofvim.com/">Best of Vim</a> collects list of great plug-ins for Vim users. Another incredible source to look for specific plug-ins for specific programming languages and specific features at <a href="http://vimawesome.com/" target="_blank">Vim Awesome</a>.</p>
+
+<h3 id="is-that-it">Is that it?</h3>
+<p>Well… If you feel comfortable and not afraid to use Vim, it can be said that you have a good start. To remember shortcuts, try this on-line game based on vim shortcuts <a href="http://vim-adventures.com/">Vim Adventures</a>.</p>
+
+<p>Take your time and play with it for a while. It’s worth your time and patience. Don’t freak out if you does something wrong, just redo and undo with ‘cltr-R’ and ‘u’ respectively.</p>
+
+:ET

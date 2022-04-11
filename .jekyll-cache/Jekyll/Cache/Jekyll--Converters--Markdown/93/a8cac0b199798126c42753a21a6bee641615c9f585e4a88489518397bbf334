@@ -1,0 +1,79 @@
+I"<p>This is the pipeline process for <a href="https://en.wikipedia.org/wiki/454_Life_Sciences" page="_blank">454</a> sequencing. I am not a biotech guy but after spending time, giving effort and getting help from my collague, I came up with a way to do that.  The tools I used are <a href="http://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software" page="_blank">NCBI SRA Toolkit</a> and 454 sequencing tool for multiplexing.</p>
+
+<h3 id="process">process</h3>
+
+<ul>
+  <li>
+    <p>Downloaded SRA files from  …</p>
+  </li>
+  <li>
+    <p>Converted these SRA files into SFF format using sff-dump tool</p>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">    	<span class="nv">$ </span>sff-dump <span class="nt">-A</span> xxxx.sra
+    </code></pre></figure>
+
+<ul>
+  <li>Rebuilt the scores of converted sff dataset with sfffile tool</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">    	<span class="nv">$ </span>sfffile <span class="nt">-o</span> xxxxxxn.sfff xxxxx.sff
+    </code></pre></figure>
+
+<ul>
+  <li>Split the file according to MID groupname</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">    	<span class="nv">$ </span>sfffile <span class="nt">-s</span> GSMIDs/RLMIDs xxxxx.sff
+    </code></pre></figure>
+
+<ul>
+  <li>Calculated the total MID matches for each group
+    <ul>
+      <li>Extract sequence:</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">		 <span class="nv">$ </span>sffinfo <span class="nt">-s</span> 454Readsxx.sff <span class="o">&gt;</span> MIDx.fasta
+		</code></pre></figure>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>*  Count total sequence no:  		
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">		 <span class="nv">$ </span>egrep <span class="nt">-e</span> <span class="s1">'^&gt;'</span>  MIDx.fasta | <span class="nb">wc</span> <span class="nt">-l</span>
+		</code></pre></figure>
+
+<ul>
+  <li>Combine sff files into one main file</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">	<span class="nv">$ </span>sfffile <span class="nt">-o</span> combined.sff xxx1.sff xxx2.sff xxx3.sfff ...
+	</code></pre></figure>
+
+<h4 id="other-useful-commands"><em>Other useful Commands</em></h4>
+
+<ul>
+  <li>Get the quality scores from the sff file:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">	<span class="nv">$ </span>sffinfo <span class="nt">-q</span> 454Readsxx.sff <span class="o">&gt;</span> MIDx.qual
+	</code></pre></figure>
+
+<ul>
+  <li>Retrieve the flow intensities:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">	<span class="nv">$ </span>sffinfo <span class="nt">-f</span> 454Readsxx.sff <span class="o">&gt;</span> MIDx.flow
+	</code></pre></figure>
+
+<ul>
+  <li>View file:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">	<span class="nv">$ </span>more/less MIDx.fasta
+	</code></pre></figure>
+
+:ET

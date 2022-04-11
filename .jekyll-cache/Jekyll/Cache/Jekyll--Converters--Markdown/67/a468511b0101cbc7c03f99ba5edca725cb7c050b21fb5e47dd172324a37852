@@ -1,0 +1,101 @@
+I"�<h2 id="there-is-a-shell-there-is-a-way">There is a shell, there is a way…</h2>
+<p>This is the study notes about bash shell-scripting.
+In part I, I would like to cover basic commands for starters.</p>
+
+<h3 id="prelude">Prelude</h3>
+<p>I have a memory shortage condition and this is just to warm up my scripting skills. Don’t expect to explain things. If you have strong imagination,that might works.</p>
+
+<h3 id="some-env-setup">Some Env Setup</h3>
+
+<h4 id="alias">alias</h4>
+<p>create shortcut to save your fingers</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">alias </span><span class="nv">l</span><span class="o">=</span><span class="s1">'ls'</span>
+<span class="nv">$ </span><span class="nb">alias </span><span class="nv">ll</span><span class="o">=</span><span class="s1">'ls -l'</span>
+<span class="nv">$ </span><span class="nb">alias </span><span class="nv">c</span><span class="o">=</span><span class="s1">'cd'</span>
+<span class="nv">$ </span><span class="nb">alias </span><span class="nv">cc</span><span class="o">=</span><span class="s1">'cd ..'</span></code></pre></figure>
+
+<h4 id="-set-completion-ignore-case-on">$ set completion-ignore-case On</h4>
+
+<p>fuck the case-sensitive</p>
+
+<h4 id="binbash">’#!/bin/bash’</h4>
+
+<p>this ‘#i’ is called shebang. Declares that you are start banging with bash.</p>
+
+<h3 id="variables">Variables</h3>
+<h4 id="like-phpeverything-is-with--sign">like php,everything is with $ sign.</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nb">echo</span> <span class="nv">$PATH</span>
+ <span class="nb">dir</span><span class="o">=</span><span class="k">${</span><span class="nv">PWD</span><span class="p">##*/</span><span class="k">}</span> //nowhitespace
+ <span class="nb">echo</span> <span class="s2">"The current working directory is </span><span class="nv">$dir</span><span class="s2">"</span> </code></pre></figure>
+
+<h4 id="read-input">Read input</h4>
+<p>sometimes,you want variables from outside world.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nt">-n</span> “Enter your name: “
+<span class="nb">read </span>myvar
+<span class="nb">echo</span> “myvar is <span class="nv">$myvar</span>”</code></pre></figure>
+
+<h4 id="some-more-advanced-reading">Some more advanced reading</h4>
+<p>this is for smarty pant.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="k">while </span><span class="nb">read </span>message
+<span class="k">do
+	 </span><span class="nb">echo</span> <span class="nv">$message</span>
+	<span class="nb">sleep </span>1
+	 <span class="nb">date
+ </span><span class="k">done</span> &lt; /etc/motd</code></pre></figure>
+
+<h4 id="positional-parameters">Positional parameters</h4>
+<p>if you know how to count one two and three,you can do it!</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>params.sh
+
+<span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> “My name is <span class="sb">`</span><span class="nb">basename</span> <span class="nv">$0</span><span class="sb">`</span> - I was called as <span class="nv">$0</span>”
+<span class="nb">echo</span> “My first parameter is: <span class="nv">$1</span>”
+<span class="nb">echo</span> “My second parameter is: <span class="nv">$2</span>”
+//try it
+<span class="nv">$ </span>./params.sh one two</code></pre></figure>
+
+<h4 id="small-bash-program">Small bash program</h4>
+
+<p>This is a bash script that did something which makes sense.</p>
+
+<p>#! /bin/sh</p>
+<h1 id="calculate-the-length-of-the-hypotenuse-of-a-pythagorean-triangle">calculate the length of the hypotenuse of a Pythagorean triangle</h1>
+<h1 id="using-hypotenuse2--adjacent2--opposite2">using hypotenuse^2 = adjacent^2 + opposite^2</h1>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nt">-n</span> Enter the Adjacent length: 
+<span class="nb">read </span>adjacent
+<span class="nb">echo</span> <span class="nt">-n</span> Enter the Opposite length: 
+<span class="nb">read </span>opposite
+<span class="nv">osquared</span><span class="o">=</span><span class="k">$((</span><span class="nv">$opposite</span> <span class="o">**</span> <span class="m">2</span><span class="k">))</span> <span class="c"># get o^2</span>
+<span class="nv">asquared</span><span class="o">=</span><span class="k">$((</span><span class="nv">$adjacent</span> <span class="o">**</span> <span class="m">2</span><span class="k">))</span> <span class="c"># get a^2</span>
+<span class="nv">hsquared</span><span class="o">=</span><span class="k">$((</span><span class="nv">$osquered</span> <span class="o">+</span> <span class="nv">$asquared</span><span class="k">))</span> <span class="c"># h^2 = a^2 + o^2</span>
+<span class="nv">hypotenuse</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> “scale<span class="o">=</span>3<span class="p">;</span>sqrt <span class="o">(</span><span class="nv">$hsquared</span><span class="o">)</span>” | bc<span class="sb">`</span> <span class="c"># bc does sqrt</span>
+<span class="nb">echo</span> “The Hypotenuse is <span class="nv">$hypotenuse</span>”</code></pre></figure>
+
+<p>###Wildcards</p>
+
+<p>####Globbing
+It’s a term comes from global and it will searchs all trees from the whole forest.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">ls </span>A<span class="k">*</span>
+<span class="nb">ls </span>A??
+<span class="nb">ls</span> <span class="k">*</span>.txt
+<span class="nb">ls</span> <span class="k">*</span>.???
+<span class="nb">ls</span> <span class="nt">-ld</span> /etc/rc<span class="o">{</span>0,1,2,3,4,5,6<span class="o">}</span>.d //create multiple file names rc0.d,rc1.d and so on
+<span class="nb">ls </span>a[a-z]c.txt //list files name start with a and ends with c and any characters between a to z</code></pre></figure>
+
+<h4 id="quoting">Quoting</h4>
+
+<p>Not a big deal but minor issues are the thing that destory the most.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'*'</span>
+<span class="nb">echo</span> <span class="s2">"*"</span>
+<span class="nb">echo</span> <span class="s2">"this is a '*'"</span>
+<span class="nb">echo</span> <span class="s1">'this is a "*"'</span></code></pre></figure>
+
+:ET

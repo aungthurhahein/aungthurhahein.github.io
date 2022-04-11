@@ -1,0 +1,61 @@
+I"�<h3 id="what-yeoman-can-do">What YEOMAN can do?</h3>
+
+<p>Instead of downloading web development frameworks all the time you started a project, It can be done in a few terimal commands.</p>
+
+<p>YEOMAN has <em><a href="http://yeoman.io/generators/" target="_blank">generators</a></em> ecosystem which automates the process of creating containers and including dependencies for your new projects.</p>
+
+<h3 id="installation">Installation</h3>
+
+<p>I wish you have Node and its package manager. If you don’t, please see at <a href="https://www.npmjs.org/" target="_blank">npm</a></p>
+
+<p>{%highlight bash%}
+$ npm install -g yo grunt-cli bower
+{%endhighlight%}</p>
+
+<p>Now, things are ready to go. Let’s start a simple web applicaiton with it.</p>
+
+<h3 id="literally-getting-started">Literally Getting started</h3>
+
+<p>To get started a project with YEOMAN, you needs to install a generator of your choice.</p>
+
+<p>This will install the simple <a href="https://github.com/yeoman/generator-webapp" target="_blank">web-application</a> generator.</p>
+
+<p>{%highlight bash%}
+$ npm install -g generator-webapp
+{%endhighlight%}</p>
+
+<p>Make a folder and initialize yo like this:
+{%highlight bash%}
+$ mkdir your_project &amp;&amp; cd your_project
+$ yo webapp
+{%endhighlight%}</p>
+
+<p>Basically,it will set up HTMLBiolerplate, JQuery and Grunt config file. 
+For css frameworks, you can choose one framework of your choice (bootstrap, Sass, Modernizr).</p>
+
+<p>This is how the directory looks like at this stage.
+{%highlight bash%}
+├── app #your app goes here
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── robots.txt
+│   ├── scripts
+│   └── styles
+├── bower_components #installed frameworks and components 
+│   ├── bootstrap
+│   └── jquery
+├── bower.json
+├── Gruntfile.js
+├── package.json
+└── test
+    ├── bower_components
+    ├── bower.json
+    ├── index.html
+    ├── npm-debug.log
+    └── spec
+{%endhighlight%}</p>
+
+<p>Well, this is a starting point of YEOMAN and for practical usage, it is necessary to know about bower and Grunt, which I will cover in later blog entries.</p>
+
+:ET

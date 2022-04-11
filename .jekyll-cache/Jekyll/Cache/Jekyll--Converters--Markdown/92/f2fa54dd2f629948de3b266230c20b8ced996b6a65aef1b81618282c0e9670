@@ -1,0 +1,31 @@
+I"�<p>In case you don’t know about bio-linux,it’s a Linux distro based on Ubuntu with around 250 of <a href="http://environmentalomics.org/bio-linux-software-list/" target="_blank"> bioinformatics packages</a> included. You can download iso file to install or also able to get software packages through ppa.</p>
+
+<p>The small problem is that the <a href="http://nebc.nerc.ac.uk/nebc_website_frozen/nebc.nerc.ac.uk//tools/bio-linux-7/other-bl-docs/package-repository" target="_blank">guideline</a> to install packages for pre-existing is outdated (only for Ubuntu 12.04 LTS).</p>
+
+<p>After checking the ppa channel at launchpad, I found out you can install to your trusty system with slight changes as the following:</p>
+
+<ul>
+  <li>Step 1:
+Add the following three source to <strong>/etc/apt/sources.list</strong></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">deb http://nebc.nerc.ac.uk/bio-linux/ unstable bio-linux
+deb http://ppa.launchpad.net/nebc/bio-linux/ubuntu trusty main
+deb-src http://ppa.launchpad.net/nebc/bio-linux/ubuntu trusty main</code></pre></figure>
+
+<ul>
+  <li>step 2:
+Get the key ring</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>apt-get update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get <span class="nb">install </span>bio-linux-keyring</code></pre></figure>
+
+<ul>
+  <li>step 3:
+Install any packages through synaptic packages managers 
+OR</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>dpkg <span class="nt">-i</span> bio-linux-&lt;packagename&gt;</code></pre></figure>
+
+:ET

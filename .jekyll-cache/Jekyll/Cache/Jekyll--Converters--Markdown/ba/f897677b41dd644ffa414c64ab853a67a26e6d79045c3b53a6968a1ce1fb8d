@@ -1,0 +1,140 @@
+I""<h3 id="intro">Intro</h3>
+
+<p>If you are a new Mac user and looking for a list of MacOS apps to install, this piece might help you into doing that. It is not an easy job to find the best of the best tools out there that will help your job. After I bought my first MacBook, I spent sometime looking on internet setting up their MacOS and I didn’t find a general article of the essential apps that I normally use and it triggers me to write this blog piece and the tools are just a selection based on my preferences.</p>
+
+<h3 id="initial-cleanup">Initial Cleanup</h3>
+
+<p>After the initial setup, MacBook comes with pre-loaded softwares. Some of them are useful for me such as Garage Band and you can remove it easily to safe up storage. One thing to notice when uninstalling Mac apps is that the applications can remove easily by deleting it, however the resources file are orphaned in the file system.  Using App Uninstaller or CleanMyMac do a good job cleaning up these leftover files.</p>
+
+<p>The next step is go to “System Preferences” and play around and change the look and feel as you want. Setting up iCloud and App Store gives some weird errors for me. Just restart the machine and give it a try. It works.</p>
+
+<p>There are some people having battery draining issue in macOS Mojave and it requires terminal to resolve and verify this issue. Find details at  <a href="https://appletoolbox.com/2018/10/how-to-fix-macos-mojave-battery-draining-issue/">How to Fix macOS Mojave Battery Draining Issue - AppleToolBox</a>.</p>
+
+<p>Follow this principle on charging MacBook: <strong>“Charge when it below 20% while using it and unplug it at 95% and Repeat.”</strong> The small menu app ”battery monitor” can give you notification.</p>
+
+<h3 id="what-accessories-to-get">What Accessories to get?</h3>
+
+<ul>
+  <li>A hard cover and a fabric or leather bag (optional)</li>
+  <li>
+    <p>2 adapters if you have 2 thunder ports (New MacBook Pro 2018 or MacBook Air 2018);</p>
+
+    <ul>
+      <li>A USB C to VGA/HDMI combo adapter</li>
+      <li>A USB C to 4 or 5 USB 3 ports</li>
+    </ul>
+  </li>
+  <li>If you only have 1 thunder port 3, get a USB hub that has 4 USB 3 ports with HDMI plus USB C port for charging.  It seems crazy but you can find a cheap one at Alixpress.</li>
+</ul>
+
+<h3 id="secure-the-os">Secure the OS</h3>
+
+<p>If you are comfortable with terminal, use <a href="https://github.com/alichtman/stronghold">GitHub - alichtman/stronghold: Easily configure macOS security settings from the terminal.</a>  to tune security configuration of your MacBook.</p>
+
+<p>Another way is to  set up manually by doing these things:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>* Turn on Firewall
+* Turn FileVault on 
+* Install reliable Antivirus software
+* Change General Settings from Security &amp; Privacy
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Investing  a few bucks on reliable antivirus and malware remover is a good idea to prevent known and unknown attacks and ransomware.</p>
+
+<h3 id="general-utility-tools">General Utility Tools</h3>
+
+<p>The following utility tools are free and quite handy in general.  I believe that everyone will need it sooner or later.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>* iTerm2
+* HomeBrew and Cakebrew 
+* Vim (via brew install)
+* Nmap (via brew install)
+* Htop (via brew install)
+* Wget (via brew install)
+* Bash completion (via brew install)
+* Clipy
+* Microsoft Desktop Remote
+* Battery Monitor
+* The Unarchiver
+* CleanMyMacX (Commercial)
+* Folx
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="office--productivity-tools">Office &amp; Productivity Tools</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>* Microsoft Office 365 (Commercial)
+* Bear (Markdown editor). I am using this app for writing blog and any markdown text.
+* Sublime Text 3
+* Fantastical 2 (Commercial)
+* itsycal (calendar menu app)
+* Adobe Lightroom (Commercial)
+* iBooks Author 
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="safari-extensions">Safari Extensions</h3>
+
+<p>Safari is not my go-to browser but I decided to use instead of Chrome on my Macbook due to its battery efficiency. There are not a lot of Safari extensions to choose from but the following plugins improve privacy and UX of safari;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>* Ghostery Lite
+* LastPass or 1Pass
+* Instapaper or Pocket
+* Folx
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Chrome is a lot faster than Safari and it has intensive plugins. However, the resource consumption of Chrome is higher than Safari which leads to more battery drainage.</p>
+
+<h3 id="development--information-security-professionals">Development &amp; Information Security professionals</h3>
+
+<p>These are just optional tools for Developers / InfoSec guys:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>* Wireshark
+* Burp Suite
+* Postman
+* Docker with Kali Container
+* VMWare Fusion or Parallels  Desktop with Kali VM 
+* SmartGit (Some prefers Tower Git Client)
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="references-for-exploring-more-from-other-like-minded-ppl">References for exploring more from other like minded ppl</h3>
+<p>The following 2 URls give a much more broad list of tools and tips for you to get started with your new MacBook.</p>
+
+<ul>
+  <li><a href="https://github.com/iCHAIT/awesome-macOS">GitHub - iCHAIT/awesome-macOS:  A curated list of awesome applications, softwares, tools and shiny things for macOS.</a></li>
+  <li><a href="https://github.com/nikitavoloboev/my-mac-os/blob/master/README.md">my-mac-os/README.md at master · nikitavoloboev/my-mac-os · GitHub</a></li>
+</ul>
+
+:ET

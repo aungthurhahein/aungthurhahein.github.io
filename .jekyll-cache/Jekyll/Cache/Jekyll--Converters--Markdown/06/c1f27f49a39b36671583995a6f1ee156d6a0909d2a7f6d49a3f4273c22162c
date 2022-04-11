@@ -1,0 +1,28 @@
+I"�<p>For people who are working with terminal all the time, you runs pipeline and tasks and you don’t know whethere it’s finished or not. This small trick will alert you.</p>
+
+<p>{%highlight bash%}
+#step1: install espeak
+$sudo apt-get install espeak</p>
+
+<p>#step2: try 
+espeak “Hello World”</p>
+
+<p>#step3: create several alias to reuse for different alert messages
+#success process
+alias sp=’espeak “process finished successfully”’
+#fail process
+alias fp=’espeak “process failed”’</p>
+
+<p>#example usage</p>
+
+<p>#!/bin/bash
+ if [ “foo” = “foo” ]; then
+    echo expression evaluated as true
+    sp
+ else
+    echo expression evaluated as false
+    fp
+ fi</p>
+
+<p>{%endhighlight%}</p>
+:ET

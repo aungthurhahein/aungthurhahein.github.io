@@ -1,0 +1,91 @@
+I"�<h3 id="why-academic-papers">Why Academic Papers?</h3>
+
+<p>Within this two years, I’ve been reading hundred of academic papers and conference journals for research projects and my ongoing thesis. I am also interested about typography and believe that it can change the preception of the readers. Good typefaces and typography arrangment can bring better readiability and impression to the readers. However, most of the academic papers is polluted with overused font and snoring typography schemes. In this article, I would like to make a comparison of how better typography can change the overall quality of the document appearence and style.</p>
+
+<h3 id="academic-paper-formats">Academic Paper Formats</h3>
+
+<p>There are various <a href="http://www.wikiwand.com/en/List_of_style_guides">style manual</a> for the researchers and wrtier to follow. Generally, these style guides include information about margin, line height, structure of the content, citation style and so on. If you are not familiar with these styles, please see the follwing guide about popular style guides:</p>
+
+<ul>
+  <li><a href="http://www.docstyles.com/library/amastat.pdf">AMA Style Guide (pdf)</a></li>
+  <li><a href="http://www.mla.org/style">MLA Style Guide(pdf)</a></li>
+  <li><a href="http://www.computer.org/cms/Computer.org/Publications/2014ComputerSocietyStyleGuide.pdf">IEEE Style Guide(pdf)</a></li>
+</ul>
+
+<p>For post-graduate students and researchers affiliated with a particular institution, they have to follow the standard the organization used. For independent researchers, it depends on the style starndard of the research paper publishers. From my experience, most of the academic papers are worse, except papers from <a href="http://www.elsevier.com/">Elsevier</a>. You can even say it terrible. Why? Bear with me and let’s take a look at some sample academic papers from different publishers.</p>
+
+<p>The following is the quotation of the first paragraph from <a href="http://drmarkwomack.com/a-writing-handbook/style/typography/">A Writing Handbook</a>.</p>
+
+<blockquote>
+  <p>The Modern Language Association (MLA) provides explicit, specific recommendations for the margins and spacing of academic papers. (For details on MLA’s typography guidelines, see: Document Format.) But the MLA Handbook’s advice on font selection is less precise: <strong>“Always choose an easily readable typeface (e.g. Times New Roman) in which the regular style contrasts clearly with the italic, and set it to a standard size (e.g. 12 point)”</strong> (§4.2).</p>
+</blockquote>
+
+<p>It can be seen that you have a choice over selecting reasonble typefaces, rather than <strong>typewriter fonts</strong> and <strong>typewriter layouts</strong>. Let’s take a look at some academic papers.</p>
+
+<p>The following two papers is from 2 different publishers. It’s quite obvious to make a decison between these two papers about which one possess better typography.The first paper is from Elsevier and the second paper is from IEEE.  Differences between these two papers are</p>
+
+<ul>
+  <li>line height of header text should be aligned center vertically.</li>
+  <li>Contents of both are justified but one with hypenation and another is not.</li>
+  <li>Font Quality(Elsevier uses <a href="http://www.gerardunger.com/fontstore/store-gulliver.html">Gulliver</a> and IEEE uses Times New Roman )</li>
+  <li>Spacing between Number and Section header</li>
+  <li>Abstract section is lost emphasis in IEEE paper.</li>
+  <li>Footer and Footnote difference. Elsevier uses footnote for author contact and copyright information. IEEE mess eveything up about article information.</li>
+  <li>IEEE has unnecessary huge lane between two columns.</li>
+  <li>Generally, the layout of Elsevier paper is working better than IEEE.</li>
+</ul>
+
+<p>At the next section, I will do some experimental layout with several typefaces to see the improvements of IEEE paper and also the process of creating these documents.</p>
+
+<p>Elsevier Journal Paper format
+<img src="/Chivers%2C%20Hargreaves%20-%202011%20-%20Forensic%20data%20recovery%20from%20the%20Windows%20Search%20Database-page-001.jpg" /></p>
+
+<p>IEEE Journal paper format
+<img src="/Said%2C%20Mutawa%20-%202011%20-%20Forensic%20analysis%20of%20private%20browsing%20artifacts-page-001.jpg" /></p>
+
+<h3 id="how-can-it-be-improved">How can it be improved?</h3>
+
+<p>Firstly, The following proposed formats don’t follow any document standards. Just my imagination and knowledge… You can decide on it’s working or not. 
+The process of creating these documents are</p>
+<ol>
+  <li>select a proper layout (3 differnt layouts)</li>
+  <li>select a single serif font (seif font family is recommened font type for academic papers.)</li>
+  <li>Arrange the information into similar groups</li>
+  <li>Use my own common sense</li>
+</ol>
+
+<p>Ok. Let’s take a look at 3 different documents on the same content.The common settings among these document is that margin is 1 inch, line-height is also 1,font size for conetent is 10 and font size for title is 16. Font size for header and footer is 9 points. Instead of paragraph indentation, try a blank line to create a whitespace.</p>
+
+<p>One thing to understand is that I created these documents with Google Doc and there is no feature to turn on auto hypentation. You can find how to turn on hypentation forproprietary word processors.</p>
+
+<p>Font Face: <a href="http://www.georgduffner.at/ebgaramond/">EB Garamond</a></p>
+
+<p>It seems to be working quite well. The header and footer is getting orgranized with similar information and humanist typeface make the paper elegant.</p>
+
+<p><img src="/academicpapersample1-page-001.jpg" /></p>
+
+<p>Font Face: <a href="http://www.fontspace.com/sorkin-type/merriweather">Merriweather</a></p>
+
+<p>The fontface is not created for printing media but it’s suprisingly working well. It’s more easier to read, compared with previous document but the tradeoffs is that fewer words cover in the first page. Also,notice that font size  10 of Merriweather looks bigger than EB Garamond.</p>
+
+<p><img src="/academicpapersample2-page-001.jpg" /></p>
+
+<p>Font Face: <a href="http://www.ffonts.net/Crete-Round.font">Crete Round</a></p>
+
+<p>Slab serif is not a good fontface for block of texts. It’s better to use for texts within table instead of courier. The layout is not the common one used by academic papers.</p>
+
+<p><img src="/academicpapersample3-page-001.jpg" /></p>
+
+<h3 id="font-recommendations">Font Recommendations</h3>
+<p>Dr. Mark Womack said…</p>
+<blockquote>
+  <p>I usually ask my students to use Century Schoolbook or Palatino for their papers. If your teacher requires you to submit your papers in a particular font, do so. (Unless they require you to use Arial, in which case drop the class.)</p>
+</blockquote>
+
+<p>A good serif font with proper size (10-12 points) according to the layout. 2 column layout needs smaller size than one column.</p>
+
+<h3 id="be-all-papers-have-better-typography">Be all papers have better typography…</h3>
+
+<p>To conclude, I belive that all publishers should exercise a good typography scheme like Elsiver do.</p>
+
+:ET

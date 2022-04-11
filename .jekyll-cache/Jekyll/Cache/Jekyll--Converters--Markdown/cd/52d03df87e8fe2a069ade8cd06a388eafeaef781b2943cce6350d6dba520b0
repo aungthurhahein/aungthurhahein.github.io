@@ -1,0 +1,42 @@
+I"�	<p>This week, I have to analyze and trim the adaptor sequence for 5 illumina HiSeq 2000 reads (Penaeus_monodon &amp; Litopenaeus vannamei species). 
+If you want to know about the research work I am helping with,please go to this page: <a href="http://www.sc.mahidol.ac.th/research/shrimp.htm" target="_blank">CentexShrimp</a>.</p>
+
+<p>Ok….Back to Sequence Trimming,</p>
+
+<p>The detail information about the run sequence can be viewed at NCBI Website.</p>
+
+<ol>
+  <li><a href="http://www.ncbi.nlm.nih.gov/sra/?term=SRR346404&amp;report=Full" target="_blank">SRR346404</a></li>
+  <li><a href="http://www.ncbi.nlm.nih.gov/sra/?term=SRR653437" target="_blank">SRR653437</a></li>
+  <li><a href="http://www.ncbi.nlm.nih.gov/sra/?term=SRR388207" target="_blank">SRR388207</a></li>
+  <li><a hre="http://www.ncbi.nlm.nih.gov/sra/?term=SRR388221" target="_blank">SRR388221</a></li>
+  <li><a href="http://www.ncbi.nlm.nih.gov/sra/?term=SRR388222" target="_blank">SRR388222 </a></li>
+</ol>
+
+<p>This is the list of the tools I used.</p>
+
+<ol>
+  <li><strong>sra tool Kits</strong> : contain several tools for converting datasets from one format to another. for this analysis, I convert the sra datasets to fastq format with fastq-dump tool for further processing. Fastq-dump tool can split the dataset into 2 files for paired-ended run with the following command.</li>
+</ol>
+
+<p>{% highlight  bash%}</p>
+
+<p>Fastq-dump –split-3</p>
+
+<p>{% endhighlight %}</p>
+
+<ol>
+  <li>
+    <p><strong><a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" target="_blank">FastQC</a></strong>: FastQC tool is a useful tool to evaluate the quality of the sequence data and it povides the report including various information about the dataset. Before and after trimming the sequence data, it is a great tool to take a look what going on with the sequence data.</p>
+  </li>
+  <li>
+    <p>** <a href="http://www.usadellab.org/cms/?page=trimmomatic" target="_blank">Trimmomatic</a>**: This is the main tool my supervisor  choose  for me to work on this task. It’s a combo tool to perform many trimming tasks for illumina runs.</p>
+  </li>
+  <li>
+    <p><strong><a href="http://ccb.jhu.edu/software/FLASH/" target="_blank">FLASH</a></strong>: After trimming data with adaptor sequences, FLASH provides a way to merge paired-end reads.</p>
+  </li>
+</ol>
+
+<p>As the last step,we can use FastQC tool again to evaluate the output merged file.  The following image shows the base quality of one dataset after the process.</p>
+
+:ET

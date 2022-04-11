@@ -1,0 +1,39 @@
+I"�<p>Unlike Windows operating system registry, Linux configuration is based on text files and standardization becomes an issue. For normal users or system administrators, there are several configuration files which are essential to know. The following listing describes these files with purposes.</p>
+
+<p>This is the list of most of the directories in modern Linux systems with general description of them. Among these directories,I will extract important directories to dig deep into configuration files.</p>
+
+<h3 id="directories">Directories</h3>
+<p>There are all directories you might find in your Linux system. The best way to explorer is by using a tool called ‘tree’.</p>
+
+<h4 id="install-tree">Install Tree</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$sudo</span> apt-get <span class="nb">install </span>tree <span class="c">#install it</span>
+<span class="nv">$ </span><span class="nb">cd</span> / <span class="c">#go to root</span>
+<span class="nv">$ </span>tree <span class="nt">-d</span> <span class="nt">-L</span> 2 <span class="c">#list dir tree into 2 level</span></code></pre></figure>
+
+<h4 id="linuxsystem-directories">LinuxSystem Directories</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/ <span class="c">#the starting point of Linux file system</span>
+/bin/ <span class="c">#executable file paths.anaglous to path variables of Windows</span>
+/boot/ <span class="c">#boot loader location</span>
+/dev/ <span class="c">#device files;you will never need to touch it</span>
+/etc/ <span class="c"># applicaiton configuration files</span>
+/home/ <span class="c">#user file system starts from here with seperate containers</span>
+/lib/ <span class="c"># kernel modules and shared libs</span>
+/lost+found/ <span class="c">#recovery files for system unexpected shutdown</span>
+/media/ <span class="c">#mount location of removeable devices</span>
+/mnt/ <span class="c">#mount point for file systems(local/network)</span>
+/opt/ <span class="c">#stands for optional. includes third party application such as JRE, JDK, codec, etc...</span>
+/proc/ <span class="c">#stands for process. informaiton about running process via pid</span>
+/root/ <span class="c"># home directory for root users</span>
+/run/ <span class="c">#tmpfs mount point</span>
+/sbin/ <span class="c"># one important foldersfor system admins that contains iptables,ifconfig,swapfiles..etc</span>
+/srv/ <span class="c"># stands for services.includes system service specific files</span>
+/sys/ <span class="c"># virtual file system which includes modification of physical devices</span>
+/tmp/ <span class="c"># temporary files with current system session</span>
+/usr/ <span class="c">#more second-tier executable programs,libraries and games</span>
+/var/ <span class="c">#stands for variables. itc contains various type of user specific contents and specifications</span></code></pre></figure>
+
+<h2 id="to-be-continue">To Be Continue…</h2>
+
+:ET

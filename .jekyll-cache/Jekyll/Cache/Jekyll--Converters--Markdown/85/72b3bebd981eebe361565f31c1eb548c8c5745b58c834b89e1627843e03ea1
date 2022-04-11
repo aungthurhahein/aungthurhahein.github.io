@@ -1,0 +1,35 @@
+I"Ú
+<p>This weekends, I am wondering about possibility of playing music from Terminal when you are working at remote computer. I ran into 2 solutions to do that. It is nice to see that there are tons of pre-exisitng applications for <strong>terminal workers</strong>.</p>
+
+<h3 id="sox"><a href="http://www.wikiwand.com/en/SoX" target="_blank">SOX</a></h3>
+
+<p>It stands for Sound eXchange and itâ€™s a application for sound processing. It is capable of converting music format from one to another.  Also,you can use it as a simple terminal music player.</p>
+
+<p>To play music with SOX, just need to know a bit about wildcards and terminal knowledge. To exit SOX, press Cltr-C. If you queue multiple songs with asterik wildcards,press Cltr-C twice will exit SOX and Cltr-C will skip to the next track.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#install sox and coded lib for it</span>
+<span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>sox libsox-fmt-all
+<span class="c">#play music</span>
+<span class="nv">$ </span><span class="nb">ls</span> ~/Music
+<span class="c">#play a song</span>
+<span class="nv">$play</span> track_1.mp3 
+<span class="c">#play all mp3s in a foler</span>
+<span class="nv">$play</span> <span class="k">*</span>.mp3</code></pre></figure>
+
+<h3 id="cmus"><a href="https://cmus.github.io/" target="_blank">CMUS</a></h3>
+<p>CMUS is more advanced than SOX with various features such as creating a library, queuing selected songs into current playlists. To get the latest release version, the developer recommend to download from <a href="https://github.com/cmus/cmus.git">cmus github repo</a> and compile it.</p>
+
+<h4 id="basic-usage">Basic usage</h4>
+<p>You can nvaigate different pannel by pressing 1 to 5;</p>
+<ul>
+  <li>1: Artist/Albumn View</li>
+  <li>2: Library</li>
+  <li>3: Playlist</li>
+  <li>4: Current Playlist</li>
+  <li>5: File Browser. Go to <strong>5</strong> to add music by navigating with arrow keys and press a to add music files/folders. Press <strong>enter</strong> to play a track and <strong>c</strong> to pause the music. Please see the <a href="https://github.com/cmus/cmus/blob/master/Doc/cmus-tutorial.txt" target="_blank">CMUS Tutorial</a> for further explanation.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git clone <span class="nt">-b</span> pu https://github.com/cmus/cmus.git
+<span class="nv">$ </span><span class="nb">cd </span>cmus <span class="o">&amp;&amp;</span> ./configure <span class="nv">prefix</span><span class="o">=</span><span class="nv">$HOME</span>/cmus <span class="o">&amp;&amp;</span> make <span class="nb">install</span></code></pre></figure>
+
+:ET

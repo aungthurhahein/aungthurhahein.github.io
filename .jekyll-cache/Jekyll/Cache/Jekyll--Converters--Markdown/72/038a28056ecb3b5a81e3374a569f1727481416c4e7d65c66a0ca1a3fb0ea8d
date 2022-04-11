@@ -1,0 +1,4 @@
+I"4<p>I was having a problem accessing mysql from terminal and get this error.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Can<span class="s1">'t connect to local MySQL server through socket '</span>/var/run/mysqld/mysqld.sock<span class="s1">'</span></code></pre></figure>
+:ET

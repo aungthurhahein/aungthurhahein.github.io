@@ -1,0 +1,18 @@
+I"�<p>For guys who use terminal a lot and guys who just wanna play with new things, this is another thing the first time I try. It’s a terminal emulator but in your browser. The clos experience I had is a chrome plugin,which can make SSL &amp; FTP connection. But a terminal…I give it a try and it’s working.</p>
+
+<h3 id="installation">Installation</h3>
+
+<p>if you don’t have pip client to install python package,</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">   <span class="nb">sudo </span>apt-get <span class="nb">install </span>python-pip </code></pre></figure>
+
+<p>Install butterfly afterwards.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">    <span class="nb">sudo </span>pip <span class="nb">install </span>butterfly <span class="c">#instal </span>
+    butterfly.server.py <span class="c">#launch</span></code></pre></figure>
+
+<p>Go to desired browser and open <strong>localhost:57575</strong> and test it out.</p>
+
+<p>For more information,this is the <a href="https://github.com/paradoxxxzero/butterfly" target="_blank">Butterfly Github Repo</a> and find out more.</p>
+
+:ET

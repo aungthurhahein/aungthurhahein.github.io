@@ -9,7 +9,7 @@ order: 1
 
 ## My name is ***Aung aka Steven***, CyberSecurity professional with past experience in software development. I used ***Rōnin*** as alias to present the way I wander around domains and subjects.
 
-### On this blog, I write thoughts and ideas on [books📚,](https://aungthurhahein.github.io/categories/book/) [tech📱](https://aungthurhahein.github.io/categories/tech/), [CyberSecurity🔐](https://aungthurhahein.github.io/categories/security/) and [life hacks ⚙️](https://aungthurhahein.github.io/categories/notes/).
+### On this blog, I write thoughts and ideas on [Tech 📱](https://aungthurhahein.github.io/categories/tech/), [CyberSecurity 🔐](https://aungthurhahein.github.io/categories/security/) [Books 📚](https://aungthurhahein.github.io/categories/book/), and [Life Hacks ⚙️](https://aungthurhahein.github.io/categories/notes/).
 
 ---
 

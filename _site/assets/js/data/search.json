@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Blogging Platform 2022 ✍🏼",
+    "url": "/posts/blogging-platform/",
+    "categories": "Notes, Productivity",
+    "tags": "Blogging, Tools",
+    "date": "2022-04-11 12:33:00 +0700",
+    
+
+
+
+
+
+    "snippet": "I have some down time at this week and decided to reinvent my blog site with new look and organization. This is the first entry after I redesigned and deployed this new site. Throughout the decision making process on the choice of platform and tools, I got some ideas and update to share with you, my friends..Platforms for blogging or NewslettersThere are criteria that helps to narrow down the options:  Free or Paid Options 💰  Self-hosted website, social media or community platforms? 🏠  Type of content? (blogs, art/design or professional articles) 🧑🏼‍🎨  Support of newsletter integration and comment 📰  Technical capability of you or your team (custom domain setup, Hosting setup, CMS knowledge, VCS, CI/CD flow, General Web Development skills) 🥷🏻OptionsThese questions will give a guideline on the path that you can decide for your blog or portfolio website.  The following mind map shows a glance of the options that you can pick from.It’s a lot of options but after browsing through some of these services, you will have an initial idea of the blogging platform that can fit your requirement.As for non-technical friends that want to kick start a blog, a site like Medium or Ghost is a good start for general bloggers and SubStack for professional writers.I included “By Technology” for developers and technical guys who want to study or build a website based on a particular JS framework such as Hexo and Jekyll.Another interesting choice for Notion.so user is blog based on Notion with no-brainer setup.Why I select GitHub Pages for bloggingIf you knows a bit of web development and CI/CD flow, there are options that you can craft website with template and customize before hosting to the hosting services ranged from Github to AWS. This is a decision making flow for mine:  I was not looking for community blogs like Medium as primary site.  I don’t want to pay for subscription for using platform except custom domain set up.  I want to maintain all my blog posts in markdown format locally as backup and also want to customize theme and custom domain.  Jekyll is my choice of tech stack with markdown editor support  I mostly blog text with few images.  I just want to use GitHub to maintain source code and content.I was using [Github Pages](https://pages.github.com) for ~5 years and it is a good option for tech savvy want to try small website.  It is relatively easy to start with user.github.io domain that you can set up custom domain. Remember, It’s ONLY for a static page website and NOT ideal for web applications. I do have Medium account that I posted some of the blogs from my main site as a way to promote using its strong community users.Other considerations  It is always ideal to choose the platform or approach that you can backup or export out your blogs for migration to another platform. To avoid platform lock-in.  Markdown is a must-know markup language for bloggers because many of the platform relies on it. OR use Notion.so for markdown writing and export it out.  Git version control system if you maintain blog site by yourself.  Boosting SEO and audience is always a challenge if you set up a self-hosted site or from scratch.  Communication channel and newsletter integration is not available in free platforms and it needs 3rd party integrations or paid tier in the platforms.  Custom domain needs to purchase by yourself from namecheap.com or godaddy.com and most freemium sites required a paid tier to set it up.I hope I help you jumpstart your blogging journey and if there is any questions upon the points I take or mistakes, DM me at twitter🐦."
+  },
+  
+  {
     "title": "2022 Outlook",
     "url": "/posts/2022/",
     "categories": "Notes, Personal",

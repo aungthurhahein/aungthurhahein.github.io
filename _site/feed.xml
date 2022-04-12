@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Unrivaled Rōnin</title>
   <subtitle>CyberSecurity, Threat Intelligence, Life, Incident Response and Threat.</subtitle>
-  <updated>2022-04-11T22:34:15+07:00</updated>
+  <updated>2022-04-12T13:07:18+07:00</updated>
   <author>
     <name>Aung 🥷🏻</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Blogging Platform 2022 ✍🏼</title>
+    <link href="http://localhost:4000/posts/blogging-platform/" rel="alternate" type="text/html" title="Blogging Platform 2022 ✍🏼" />
+    <published>2022-04-11T12:33:00+07:00</published>
+  
+    <updated>2022-04-11T12:33:00+07:00</updated>
+  
+    <id>http://localhost:4000/posts/blogging-platform/</id>
+    <content src="http://localhost:4000/posts/blogging-platform/" />
+    <author>
+      <name>aung</name>
+    </author>
+
+  
+    
+    <category term="Notes" />
+    
+    <category term="Productivity" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I have some down time at this week and decided to reinvent my blog site with new look and organization. This is the first entry after I redesigned and deployed this new site. Throughout the decision making process on the choice of platform and tools, I got some ideas and update to share with you, my friends..
+
+Platforms for blogging or Newsletters
+
+There are criteria that helps to narrow down t...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -168,44 +208,6 @@ Firstly, Let start with the difference between Indicator of Compromise (IOCs)  a
 
 IOAs can describe the active attack series by adversary that is occurring in real time which is via real time monitoring and detection.
 The ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Penetration Testing - Business Logic Test</title>
-    <link href="http://localhost:4000/posts/Web-Application-Penetration-Testing/" rel="alternate" type="text/html" title="Penetration Testing - Business Logic Test" />
-    <published>2019-03-30T00:00:00+07:00</published>
-  
-    <updated>2019-03-30T00:00:00+07:00</updated>
-  
-    <id>http://localhost:4000/posts/Web-Application-Penetration-Testing/</id>
-    <content src="http://localhost:4000/posts/Web-Application-Penetration-Testing/" />
-    <author>
-      <name>Aung 🥷🏻</name>
-    </author>
-
-  
-    
-    <category term="Security" />
-    
-    <category term="Application Testing" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A state of Mind
-
-Unlike other  penetration testing techniques, business logic testing gives a headache to most beginner testers. This is an a testing area that the testers with application mind can find a way in better than professionals comes from network &amp;amp; system background. This post is not a “know-how” techniques of how to exploit the web application.  This is more of ideas that what th...
     </summary>
   
 

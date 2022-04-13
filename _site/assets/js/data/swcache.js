@@ -15,6 +15,8 @@ const resource = [
   
     '/categories/',
   
+    '/tech/',
+  
     '/tags/',
   
     '/archives/',

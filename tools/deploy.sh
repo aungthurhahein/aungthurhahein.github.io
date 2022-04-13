@@ -82,8 +82,8 @@ setup_gh() {
 }
 
 backup() {
-  # mv "$SITE_DIR"/* "$_backup_dir" #comment out
-  # mv .git "$_backup_dir" #comment out
+  mv "$SITE_DIR"/* "$_backup_dir" #comment out
+  mv .git "$_backup_dir" #comment out
 
   # When adding custom domain from Github website,
   # the CANME only exist on `gh-pages` branch
@@ -97,7 +97,7 @@ flush() {
   rm -rf .[^.] .??*
 
   shopt -s dotglob nullglob
-  # mv "$_backup_dir"/* .  #comment out
+  mv "$_backup_dir"/* .  #comment out
   [[ -f ".nojekyll" ]] || echo "" >".nojekyll"
 }
 

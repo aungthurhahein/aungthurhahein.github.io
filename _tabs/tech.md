@@ -100,6 +100,8 @@ After a loss of ~300-400 paperback books, I kind of give up on physical books. I
 
 ### 📝 Notebook & Pen
 
+![Book & Pen](/tech_gadget/book.jpeg){: .normal w="400" h="400" }
+
 As for journalling, I uses actual book instead of digital writing apps. The book is Moleskine book (normally receives as a freebie from Starbucks every year). The pen is Muji metallic pen which is compact and feels great.
 
 ## Computer & Accessories 💻

@@ -102,7 +102,7 @@ After a loss of ~300-400 paperback books, I kind of give up on physical books. I
 
 ![Book & Pen](/tech_gadget/book.jpeg){: .normal w="400" h="400" }
 
-As for journalling, I uses actual book instead of digital writing apps. The book is Moleskine book (normally receives as a freebie from Starbucks every year). The pen is Muji metallic pen which is compact and feels great.
+As for journalling, I uses actual book instead of digital writing apps. The book is Moleskine books (normally receives as a freebie from Starbucks every year). The pen is Muji metallic pen which have a good grip and the ink flow is awesome.
 
 ## Computer & Accessories 💻
 
@@ -114,7 +114,7 @@ I was not Apple users until 2018 that I was looking for a reliable and beautiful
 
 ### ⌨️ Keyboard
 
-I used **Logitech MK220** for almost 7 years in the past. The old Logitech products are fixable by yourself for some mechanical part issues and last long. However, recent Logitech products are not about quality and fixability. I don’t recommend if you want a keyboard that can last longer than 1 year.  I am now using 2 mechanical keyboards: a blue switch Phillips keyboard  100% and brown switch 60% layout Chinese brand. 
+I used **Logitech MK220** for almost 7 years in the past. The old Logitech products are fixable by yourself for some mechanical part issues and last long. However, recent Logitech products are not about quality and fixability. I don’t recommend if you want a keyboard that can last longer than 1 year.  I am now using 2 mechanical keyboards: a blue switch [Phillips](https://www.philips.co.uk/c-p/SPK8605_01/momentum-wired-mechanical-gaming-keyboard) 100% layout mechnical keyboard and brown switch 60% layout Chinese brand. 
 
 ### 🖱️ Mouse
 

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Unrivaled Rōnin</title>
   <subtitle>CyberSecurity, Threat Intelligence, Life, Incident Response and Threat.</subtitle>
-  <updated>2022-04-16T16:29:35+07:00</updated>
+  <updated>2022-04-18T13:53:57+07:00</updated>
   <author>
     <name>Aung 🥷🏻</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>DNS Over HTTPs and security aspects from individual and enterprise</title>
+    <link href="http://localhost:4000/posts/DoH/" rel="alternate" type="text/html" title="DNS Over HTTPs and security aspects from individual and enterprise" />
+    <published>2022-04-18T10:22:00+07:00</published>
+  
+    <updated>2022-04-18T10:22:00+07:00</updated>
+  
+    <id>http://localhost:4000/posts/DoH/</id>
+    <content src="http://localhost:4000/posts/DoH/" />
+    <author>
+      <name>aung</name>
+    </author>
+
+  
+    
+    <category term="Security" />
+    
+    <category term="DNS Security" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is DNS Over HTTPs (DoH)?
+
+Standard DNS (on tcp/udp port 53) works just fine but missing security features to prevent tampering of its plaintext DNS request to the DNS providers. It leads to security issues such as DNS Cache Poisoning and typo-squatting domains.
+
+DNS Over HTTPs (DoH) brings TLS/SSL encapsulation on HTTP traffic to boost security integrity issues of spoofing and tampering of...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -167,47 +207,6 @@ As for burmese citizens including me, 2021 Feb military coup is another misery a
 Well, this is the credential for security practioners like us that hard to prove the market that “I kinda of know what I am doing and would like HR personnel to make their job easier”. A bit of morale dellima in taking this exam but I have to say the learning experience and knowlege gain is worth the pain. This is a bit of extension on what I jot down at reddit post.
 
 Since I am alre...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>IOCs in Incident Reponse</title>
-    <link href="http://localhost:4000/posts/IOCs/" rel="alternate" type="text/html" title="IOCs in Incident Reponse" />
-    <published>2019-07-07T00:00:00+07:00</published>
-  
-    <updated>2019-07-07T00:00:00+07:00</updated>
-  
-    <id>http://localhost:4000/posts/IOCs/</id>
-    <content src="http://localhost:4000/posts/IOCs/" />
-    <author>
-      <name>Aung 🥷🏻</name>
-    </author>
-
-  
-    
-    <category term="Security" />
-    
-    <category term="Threat Intel" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introduction
-
-Firstly, Let start with the difference between Indicator of Compromise (IOCs)  and Indicator of Attacks (IOAs). In daily security operations, we are using these terms interchangeably, however it is better to understand the accurate meanings.
-
-IOAs can describe the active attack series by adversary that is occurring in real time which is via real time monitoring and detection.
-The ...
     </summary>
   
 

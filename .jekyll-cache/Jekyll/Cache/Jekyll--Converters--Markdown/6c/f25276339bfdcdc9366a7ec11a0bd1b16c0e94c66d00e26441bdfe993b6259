@@ -1,0 +1,119 @@
+I"�<h2 id="what-is-dns-over-https-doh">What is DNS Over HTTPs (DoH)?</h2>
+
+<p><strong>Standard DNS</strong> (on tcp/udp port 53) works just fine but missing security features to prevent tampering of its plaintext DNS request to the DNS providers. It leads to security issues such as DNS Cache Poisoning and typo-squatting domains.</p>
+
+<p><strong>DNS Over HTTPs (DoH)</strong> brings TLS/SSL encapsulation on HTTP traffic to boost security integrity issues of spoofing and tampering of DNS requests from clients to providers. In this article, i will refer DNS Over HTTPs as <em>DoH abbreviation.</em></p>
+
+<h2 id="the-good">The Good</h2>
+
+<p>This brings better security for personal home network to prevent DNS based attacks and sniffing by attackers. You can find many DoH supported <a href="https://github.com/curl/curl/wiki/DNS-over-HTTPS">upstream providers</a> and browser like Firefox already added this functionality in <a href="https://support.mozilla.org/en-US/kb/firefox-dns-over-https">2019</a> and started rolling out.  There are project that showing the possibility to set up <a href="https://github.com/sieyron/dns-over-https">DoH server</a> and set up <a href="https://docs.pi-hole.net/guides/dns/cloudflared/">pi-hole</a> to relay DoH instead of standard DNS.</p>
+
+<p>In general, this sounds like a good idea for individual users since it improves security of the DNS requests, however security professionals are pointing out caveats and challenges in enterprise network. Existing DNS security solution like DNS Sinkhole (which already have other i<a href="https://winstonprivacy.com/blogs/articles/how-advertisers-and-tracking-services-are-bypassing-pi-hole">ssues</a>) needs a redesign to support both DoH traffic and standard DNS traffic as fallback DNS request.</p>
+
+<h2 id="the-bad">The Bad</h2>
+
+<p>Enterprise network relies network security control and monitoring using standard DNS traffic and containment of malicious domains via DNS security solutions and sink-holing.</p>
+
+<p>There is <a href="https://insights.sei.cmu.edu/blog/dns-over-https-3-strategies-for-enterprise-security-monitoring/">SEI post</a> from Carnegie Mellon University talks on 3 aspects to fight back risks bring from DoH. I want to comment on the points that we need to consider during executing these strategies:</p>
+
+<p><strong><em>Strategy 1: Disable DoH in Managed Endpoints.</em></strong></p>
+
+<ul>
+  <li>It is a plausible control to restrict configuration of DoH on applications to to whitelist applications if this aligns with organization security policies.</li>
+</ul>
+
+<p><strong><em>Strategy 2: Block Known DoH Providers for Managed and Unmanaged Endpoints.</em></strong></p>
+
+<ul>
+  <li>This is a bit of whack-a-mole approach to block DoH upstream DNS provides. As of 2022, even Google have DoH <a href="https://developers.google.com/speed/public-dns/docs/doh">endpoints</a> and if the enterprise solution starts using DoH on its products, admin going to need to whitelist these providers and this make things messier.</li>
+</ul>
+
+<h2 id="the-ugly">The Ugly</h2>
+
+<blockquote>
+  <p><strong><em>Strategy 3: Assume Breach and Focus on Detection.</em></strong></p>
+</blockquote>
+
+<ul>
+  <li>A secure way to establish DNS traffic brings unwanted audience whom are adversaries that are constantly seeking a better way to perform anomalous activities. To be able to detect DoH traffic among other HTTP, it needs a rethink of SIEM log collection and detection engineering as the start:
+    <ul>
+      <li>Security Operation needs to think of log collection to distinguish DoH traffic to merge in standard DNS traffic data model. <a href="https://datatracker.ietf.org/doc/html/rfc8484">RFC-8484</a> also describes the protocol description and implementation details.  There is already <a href="https://arxiv.org/pdf/2204.03975.pdf">academic paper</a> in researching a initial analysis on DoH traffic identification.</li>
+      <li>The following code snippets is HTTPS GET/POST requests and example response from DoH server.  It shows what <em>“application/dns-message”</em> is the keyword to identify DoH Traffic.</li>
+    </ul>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>  # HTTP GET Request Sample of DoH traffic
+  :method = GET
+     :scheme = https
+     :authority = dnsserver.example.net
+     :path = /<span class="gs">**dns-query**</span>?dns=AAABAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
+     <span class="gs">**accept = application/dns-message**</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>  # HTTP POST Request Sample of DoH traffic
+  :method = POST
+     :scheme = https
+     :authority = dnsserver.example.net
+     :path = /dns-query
+     accept = application/dns-message
+     <span class="gs">**content-type = application/dns-message**</span>
+     content-length = 33
+    
+     <span class="nt">&lt;</span><span class="err">33</span> <span class="na">bytes</span> <span class="na">represented</span> <span class="na">by</span> <span class="na">the</span> <span class="na">following</span> <span class="na">hex</span> <span class="na">encoding</span><span class="nt">&gt;</span>
+     00 00 01 00 00 01 00 00  00 00 00 00 03 77 77 77
+     07 65 78 61 6d 70 6c 65  03 63 6f 6d 00 00 01 00
+     01
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>  # HTTP Response Request Sample of DoH traffic
+  :status = 200
+     <span class="gs">**content-type = application/dns-message**</span>
+     content-length = 61
+     cache-control = max-age=3709
+    
+     <span class="nt">&lt;</span><span class="err">61</span> <span class="na">bytes</span> <span class="na">represented</span> <span class="na">by</span> <span class="na">the</span> <span class="na">following</span> <span class="na">hex</span> <span class="na">encoding</span><span class="nt">&gt;</span>
+     00 00 81 80 00 01 00 01  00 00 00 00 03 77 77 77
+     07 65 78 61 6d 70 6c 65  03 63 6f 6d 00 00 1c 00
+     01 c0 0c 00 1c 00 01 00  00 0e 7d 00 10 20 01 0d
+     b8 ab cd 00 12 00 01 00  02 00 03 00 04
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+
+    <ul>
+      <li>Think of a way to include DoH traffic in TLS interception to have visibility of DoH traffic.</li>
+      <li>Detection engineer and Threat intel analyst requires to sit down together how to include existing detection use cases and upcoming scenarios to include DoH traffic.</li>
+      <li>Monitor new TTPs and approaches used by adversary to have a detection strategy to prevent potential attacks to the organization.</li>
+    </ul>
+
+    <p>There are concerns and discussion in cybersecurity community on how to handle the risks of DoH with security controls. The protocol itself is in the early stage and there is still time for preparing to monitor and detect DoH traffic used by adversary. I’ll write up on a specific procedural mitigation actions that security professionals can exercise.</p>
+  </li>
+</ul>
+:ET

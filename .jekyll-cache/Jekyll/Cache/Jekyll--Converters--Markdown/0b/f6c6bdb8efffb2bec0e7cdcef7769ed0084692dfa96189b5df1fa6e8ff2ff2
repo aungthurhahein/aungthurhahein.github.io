@@ -1,0 +1,32 @@
+I"�<h2 id="what-is-apple-universal-control-">What is Apple Universal Control ?</h2>
+
+<p>When Apple <a href="https://www.youtube.com/watch?v=X3-2Md-Zt3o&amp;feature=emb_title">announced</a> Universal Control, I thought it is too good to be true. A single peripheral device control multiple machines without any setup? That’s something  peripheral devices manufactures like Logitech are offering with keyboard that can toggle among input devices but not as smoothly as Universal Control can deliver. It’s a pretty sleek feature that can boost your productivity as an add-on functionality that is missing in <a href="https://support.apple.com/en-us/HT210380">Sidecar</a>.</p>
+
+<p>Here is 3 reasons why it is ideal solution than 3rd party technology like <a href="https://www.logitech.com/en-roeu/software/options.html">Logitech Flow:</a></p>
+
+<h3 id="no-additional-cost">No Additional Cost</h3>
+
+<p>It works out of the box if you own <a href="https://support.apple.com/en-us/HT212757">compatible</a> Apple products and initial 1 minute set up.</p>
+
+<p>It don’t need to be apple keyboard and mouse. It can be any peripheral devices you are using since the connection is done by MacOS and iPadOS.</p>
+
+<h3 id="flexibility-and-customization">Flexibility and customization</h3>
+
+<p>It can work with a Macbook. Mac mini or iMac with multiple iPads and you can arrange the displays as  the way you work in a regular day. This <a href="https://www.youtube.com/watch?v=Yc--aGKhdAQ">setup</a> from DailyTeek Youtube channel is pretty interesting with a thoughtful setup to fulfill his daily work flow with full utlization of iPad touch screen, apple pencil and multiple displays that he have.</p>
+
+<p><img src="/universal-control.png" alt="Universal Control setup" w="500" h="500" /></p>
+
+<h3 id="no-additional-softwaredrivers">No additional software/drivers</h3>
+
+<p>I tried Logtitech mouse with its Flow technology that I want to copy/paste text and transfer files between my Macbook and Window device but it didn’t work due to security restrictions of both operating system (keep in mind that Window device is cooperate hardened machine).  The additional software and drivers is quite buggy and it consumes resources quite heavily.  I ended up uninstalling them and it becomes a regular mouse.</p>
+
+<h2 id="why-is-it-the-future">Why is it the future?</h2>
+
+<p>I believe this can be a standard productivity flow for most people and other companies such as Microsoft will adapt this one way or another to fulfill Windows operating system with 3rd party computer manufacturers and display company. I wish Apple will also pattern this with display company to support this functionality like what they did AirPlay with Samsung smart TVs.</p>
+
+<p>Instead of connecting MacBook with USB-C dock  to a monitor or TV to use as a separate display, either Sidecar and/or Universal Control support can make us get rid of  these annoying adaptors.</p>
+
+<p>This can’t happen very soon but I think there is a possibility on it.  Regrading recent <a href="https://www.patentlyapple.com/patently-apple/2021/07/apple-wins-a-hot-patent-for-a-universal-control-like-extension-allowing-devices-to-seamlessly-share-content-directly-when-cre.html">patent</a> registration by Apple, it seems they are trying to improve Universal Control capability pivoting around Apple ecosystem with extending more productivity workflow and bring in iPhone.</p>
+
+<p>So, if you are Apple Mac and iPad users and have not tried this feature yet,  you are really missing out and give it a go. Have good days friends..</p>
+:ET

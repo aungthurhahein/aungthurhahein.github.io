@@ -4,7 +4,6 @@ title: Thoughts on DevSecOps
 date: 2018-10-01 +0700
 categories: [Security, DevSecOps]    
 tags: [Security, Development]
-pin: true
 image:
     path: "/devsecops.png"
 --- 

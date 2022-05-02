@@ -1,8 +1,8 @@
 ---
 title: Productivity Simplify
 author: aung
-date: 20xx-0x-0x 11:33:00 +0700
-categories: [Notes/Productivity]
+date: 2022-04-28 11:33:00 +0700
+categories: [Notes,Productivity]
 tags: [productivity, tools, apps]
 math: false
 mermaid: false

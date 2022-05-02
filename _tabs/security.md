@@ -9,13 +9,13 @@ order: 2
 
 > Last updated date: 2 May 2022
 
-[Books 📖](security/#books-)
+[Books 📖](/security/#books-)
 
-[Podcasts 👂🏼](security/#podcasts-)
+[Podcasts 👂🏼](/security/#podcasts-)
 
-[Guide & Learning 🔼](security/#guide-and-learning-)
+[Guide & Learning 🔼](/security/#guide-and-learning-)
 
-[Random 👹](security/#random-)
+[Random 👹](/security/#random-)
 
 
 ## Books 📖

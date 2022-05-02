@@ -201,3 +201,11 @@ It is a FREE underrated [mobile wallet app](https://stocardapp.com/en/de) that m
 ### 📙 Libby
 
 If Audible is the king of audiobooks, [Libby](https://www.overdrive.com/apps/libby) is ambitious prince that planning to overthrown the king. I was using Libby with local library member and it is almost cost free for me. If you are audiobook junkie, Audible is the best options with some bucks but for me, Libby is ok enough to enjoy some non-fictions that I listen during commute and gym sessions.
+
+### 📶 Hidden Bar (Bartender 4 Free Alternative)
+
+If you are a user of Bartender, it is great tool to minimize noise in your MacOS Menu bar. I was using it for a very long time until I found [Hidden Bar](https://apps.apple.com/th/app/hidden-bar/id1452453066?mt=12). It is free and basically do the same thing what Bartender is offering.
+
+### 🤝 Meeter
+
+After pandemic, the amount of video conference calls is peaked and it is getting hectic to manage the meetings. There are 2 apps which help me with one click to join any MS Teams, Zoom, WebX meetings. These 2 apps do a similar job and you can pick the one to go. Check out at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400?mt=12).

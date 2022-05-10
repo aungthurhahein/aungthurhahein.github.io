@@ -8,7 +8,7 @@ order: 3
 
 # I spends quite a lot of time geeking out on gadgets and tools that are perfect, reliable and aesthetic. This is a dynamic list of my **favorite** objects that I use in daily basis.
 
-> Last Updated Date: 13th  April 2022
+> Last Updated Date: 10th May 2022
 
 ## [Every Day Carry (EDC) 🎧](/tech/#every-day-carry-edc--1)
 
@@ -209,3 +209,9 @@ If you are a user of Bartender, it is great tool to minimize noise in your MacOS
 ### 🤝 Meeter
 
 After pandemic, the amount of video conference calls is peaked and it is getting hectic to manage the meetings. There are 2 apps which help me with one click to join any MS Teams, Zoom, WebX meetings. These 2 apps do a similar job and you can pick the one to go. Check out at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400?mt=12).
+
+at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400?mt=12).
+
+### 🗄️ Dropzone 4
+
+It is a file organizer and convenient file sharing app that makes easier than using Finder.  Moving files or folders among 2 different location or archiving files takes several steps with finder or terminal. It can cut down into a simple drag and drop with [Dropzone 4](https://aptonic.com). Check it out.

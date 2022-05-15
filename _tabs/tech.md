@@ -47,6 +47,10 @@ order: 3
 - 🔄 Automation (IFTTT + Shortcuts + Alexa)
 - 💳 Stocard
 - 📙 Libby
+- 📶 Hidden Bar (Bartender 4 Free Alternative)
+- 🤝 Meeter
+- 🗄️ Dropzone 4
+
 
 ## Every Day Carry (EDC) 🎧
 

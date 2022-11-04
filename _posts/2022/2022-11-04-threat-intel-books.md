@@ -12,6 +12,8 @@ On a good Sunday morning, I was flipping my kindle to read a book related with m
 
 Just for a sanity check and bias avoidance, I don’t know any of these authors and pick these books with ZERO effort in reading other reviews.  
 
+---
+
 ## A mix of both domains 
 
 ![Untitled](/ti-books/1.png){: w="350" h="350" .normal}

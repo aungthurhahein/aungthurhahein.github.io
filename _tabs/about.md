@@ -1,15 +1,15 @@
 ---
 layout: page
 title: About
-icon: fa fa-user-ninja
+icon: fa fa-user
 order: 1
 ---
 
 # Hello Friends 🖐🏼…
 
-## My name is ***Aung aka Steven***, CyberSecurity professional with past experience in software development. I used ***Rōnin*** as alias to present the way I wander around domains and subjects.
+## My name is **Aung**, CyberSecurity professional with past experience in software development. I used **Rōnin** as alias to present the way I wander around domains and subjects.
 
-### On this blog, I write thoughts and ideas on [Tech 📱](https://aungthurhahein.github.io/categories/tech/), [CyberSecurity 🔐](https://aungthurhahein.github.io/categories/security/) [Books 📚](https://aungthurhahein.github.io/categories/book/), and [Life Hacks ⚙️](https://aungthurhahein.github.io/categories/notes/).
+### On this blog, I write thoughts and ideas on [Tech 📱](https://aung.tech/categories/tech/), [CyberSecurity 🔐](https://aung.tech/categories/security/) [Books 📚](https://aung.tech/categories/book/), and [Life Hacks ⚙️](https://aung.tech/categories/notes/).
 
 ---
 
@@ -27,4 +27,5 @@ order: 1
 
 - ✉️ If you are interested to make a digital conversation with me, don’t hesitate to contact me via ***aungthurhahein[at]gmail[dot]com*.**
 - #️⃣ Follow or DM on [Twitter](https://twitter.com/steve_a150) if there is any topics or ideas to discuss.
+- I posted some of these blogs on [Medium](https://atrhein.medium.com) as well.
 - For business related talk, let connect on [LinkedIn](https://www.linkedin.com/in/aung-thu-rha-hein-2947b718/). I am open for freelance security projects and future employers that looking for **Security technical consulting** related positions.

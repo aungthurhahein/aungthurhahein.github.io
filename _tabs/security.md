@@ -40,6 +40,10 @@ Kevin Mitnick is a household name when we are talking about hacker in 2000. The 
 
 This is like a wikipedia about CyberSecurity and a rich source of information that information security professionals need to understand about most aspects of the security functions. If there is 2 books that can benefit the whole security team, I recommended to invest on these 2 books. 
 
+### Theat Intel & Hunting ### 
+
+I make books reivew of 10 books related with these 2 domains at [here](https://aung.tech/posts/threat-intel-books/).
+
 ## Podcasts 👂🏼
 
 These are the podcasts I set up in my Alexa flash briefing to get updated security news and events.  

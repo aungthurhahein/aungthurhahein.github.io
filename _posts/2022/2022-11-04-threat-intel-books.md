@@ -8,9 +8,9 @@ math: false
 mermaid: false
 ---
 
-On a good Sunday morning, I was flipping my kindle to read a book related with my job. I went to Amazon store to check books related with Threat Intel & Hunting. There is not a lot of options as other Cybersecurity domains. I got a wild idea of buying a bunch of them to read through to review the content of the books and the ideas. This is a brief review of these books for anyone who wants to purchase to read it. My main job responsibility is taking care of threat landscape and risk management and the reviews are given to reflect which level of knowledge required for each books and content coverage. 
+On a good Sunday morning, I was flipping my kindle to read a book related with my job. I went to Amazon store to check books under Threat Intel & Hunting domains. There is not a lot of options as other Cybersecurity domains, especially in the ones published recent years. I got a wild idea of buying a bunch of them to read through to review the content of the books and the ideas. This is a brief review of these books for anyone who wants to purchase to read it. My main job responsibility is taking care of threat landscape and input to risk management. The reviews are given to reflect which level of knowledge required for each books and content coverage.
 
-Just for a sanity check and bias avoidance, I don’t know any of these authors and pick these books with ZERO effort in reading other reviews.  
+Just for a sanity check and unbiased judgement, I don’t have any of these authors’ works and pick these books with ZERO effort in reading other reviews.
 
 ---
 

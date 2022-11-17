@@ -50,6 +50,7 @@ order: 3
 - 📶 Hidden Bar (Bartender 4 Free Alternative)
 - 🤝 Meeter
 - 🗄️ Dropzone 4
+- ✍🏼 Better Touch Tool
 
 
 ## Every Day Carry (EDC) 🎧
@@ -219,3 +220,7 @@ at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/u
 ### 🗄️ Dropzone 4
 
 It is a file organizer and convenient file sharing app that makes easier than using Finder.  Moving files or folders among 2 different location or archiving files takes several steps with finder or terminal. It can cut down into a simple drag and drop with [Dropzone 4](https://aptonic.com). Check it out.
+
+### ✍🏼 Better Touch Tool
+
+If you have a Macbook with touch bar, the OG design from Apple is a waste of the potential what this tiny screen can do. This app bundles with [AquaTouch](https://yuuiko.github.io/AQT/index.html) preset opens another world. Just try and you will impress.

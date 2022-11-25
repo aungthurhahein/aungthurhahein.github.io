@@ -6,6 +6,7 @@ categories: [Book, Review]
 tags: [Book, Review, CyberSecurity]
 math: false
 mermaid: false
+pin: true
 ---
 
 On a good Sunday morning, I was flipping my kindle to read a book related with my job. I went to Amazon store to check books under Threat Intel & Hunting domains. There is not a lot of options as other Cybersecurity domains, especially in the ones published recent years. I got a wild idea of buying a bunch of them to read through to review the content of the books and the ideas. This is a brief review of these books for anyone who wants to purchase to read it. My main job responsibility is taking care of threat landscape and input to risk management. The reviews are given to reflect which level of knowledge required for each books and content coverage.

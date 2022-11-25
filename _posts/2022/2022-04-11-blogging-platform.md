@@ -4,7 +4,6 @@ author: aung
 date: 2022-04-11 12:33:00 +0700
 categories: [Notes, Productivity]
 tags: [Blogging, Tools]
-pin: true
 ---
 
 I have some down time at this week and decided to reinvent my blog site with new look and organization. This is the first entry after I redesigned and deployed this new site. Throughout the decision making process on the choice of platform and tools, I got some ideas and update to share with you, my friends..

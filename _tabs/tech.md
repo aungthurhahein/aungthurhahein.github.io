@@ -51,6 +51,7 @@ order: 3
 - 🤝 Meeter
 - 🗄️ Dropzone 4
 - ✍🏼 Better Touch Tool
+- 🔍 Arc Browser
 
 
 ## Every Day Carry (EDC) 🎧
@@ -224,3 +225,7 @@ It is a file organizer and convenient file sharing app that makes easier than us
 ### ✍🏼 Better Touch Tool
 
 If you have a Macbook with touch bar, the OG design from Apple is a waste of the potential what this tiny screen can do. This app bundles with [AquaTouch](https://yuuiko.github.io/AQT/index.html) preset opens another world. Just try and you will impress.
+
+### 🔍 Arc Browser
+
+It’s a new browser that everyone is talking about at early 2023. It changes the whole way how we think of browser and all the little details put into this application is just amazing. I am loving this app more and more after use over past months.

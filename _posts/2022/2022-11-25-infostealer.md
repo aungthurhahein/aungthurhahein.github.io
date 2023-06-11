@@ -10,7 +10,7 @@ image:
   path: /infosteal1.png
   width: 800
   height: 500
-pin: true
+pin: false
 ---
 
 A recent [report](https://www.notion.so/303ab17315304c0fb62b044b368132ee) from Group-IB describes that Russian hackers have **stolen over 50 millions passwords in the first 7 months of 2022** using info stealer malware**.** The evolution and development of Information Stealer Malware in 2022 is intrusive and there are many variants of infoStealer malware targeting from mobile to desktop operating systems. This is still a prominent threat in upcoming years and this post is a study of infoStealer malware capability and common observed characteristics for remediation and awareness of it.

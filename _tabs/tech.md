@@ -36,6 +36,9 @@ order: 3
 
 ## [Mobile & Desktop Apps 📲](/tech/#mobile--desktop-apps--1)
 
+- 🏹 Arc Browser
+- 🔎 Command Browser
+- 📖 ReadWise
 - 📆 Calendar Apps (Fantastical+ Calendar)
 - ✅ Reminders
 - 🗒️ Notes
@@ -51,7 +54,6 @@ order: 3
 - 🤝 Meeter
 - 🗄️ Dropzone 4
 - ✍🏼 Better Touch Tool
-- 🔍 Arc Browser
 
 
 ## Every Day Carry (EDC) 🎧
@@ -156,6 +158,18 @@ My choice of smart plug to integrate with Echo Dot is [TP-Link Smart Plug](https
 
 My productivity apps and tools relies on Apple apps and expand into other apps that can fulfill the missing gaps. Buying all paid apps that you don’t really need or use is just not wise. You can find apps that is effective for your workflow and again, if you are only using 20% of the app functionalities you paid for, it is a waste and better seek free or default apps.
 
+### 🏹 Arc Browser
+
+It’s a new browser that everyone is talking about at early 2023. It changes the whole way how we think of browser and all the little details put into this application is just amazing. I am loving this app more and more after use over past months.It is relatively fast and features are just unique and applicable at the same time. Shout out the devs from Arc!
+
+### 🔎 Command Browser
+
+This browser is only available for iOS at this moment and its target audience is power reader. You can directly integrate with ReadWise, Notion or RemNote directly when you highlight text. Save the steps to click through sharing and so on. I do have Arc mobile browser and still prefer this one as default mobile browser.
+
+### 📖 ReadWise
+
+I recenly discovered this services which provides an ecosystem of knowledge sharing. The readwise highligher gathers all your reading from Kindle ebook reader to articles into a single source along with the reader app that performs as read-it-later, RSS feeder that integrate with ReadWise highligher. It is just the best services out there and I replaced with Feedly and Matter2.
+
 ### 📆 Calendar Apps (Fantastical+ Calendar)
 
 For privacy reason, my work and personal calendar are not synced. The reason I use Free Fantastical is that it can integrate with Apple reminders which is something I can’t achieve with default Calendar.
@@ -179,6 +193,7 @@ Sublime Text is a choice of text editor for most people and it is getting better
 ### 🔖 BookMarking (Matter 2)
 
 I was a long user of both Pocket and Instapaper. The problem is that instead of revisiting these bookmarks, it just end up as a list forever. [Matter 2](https://hq.getmatter.app) reinvents this conventional flow by createing a community based reading and bookmarking platform including newsletter reading that you subscribed via your email address. 
+Update (2023): I am no longer using this app anymore but still a great bookmarking app.
 
 ### 📚 Virtual Library (Books + Calibre)
 
@@ -216,8 +231,6 @@ If you are a user of Bartender, it is great tool to minimize noise in your MacOS
 
 After pandemic, the amount of video conference calls is peaked and it is getting hectic to manage the meetings. There are 2 apps which help me with one click to join any MS Teams, Zoom, WebX meetings. These 2 apps do a similar job and you can pick the one to go. Check out at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400?mt=12).
 
-at [Meeter](https://www.trymeeter.com) and [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400?mt=12).
-
 ### 🗄️ Dropzone 4
 
 It is a file organizer and convenient file sharing app that makes easier than using Finder.  Moving files or folders among 2 different location or archiving files takes several steps with finder or terminal. It can cut down into a simple drag and drop with [Dropzone 4](https://aptonic.com). Check it out.
@@ -225,7 +238,3 @@ It is a file organizer and convenient file sharing app that makes easier than us
 ### ✍🏼 Better Touch Tool
 
 If you have a Macbook with touch bar, the OG design from Apple is a waste of the potential what this tiny screen can do. This app bundles with [AquaTouch](https://yuuiko.github.io/AQT/index.html) preset opens another world. Just try and you will impress.
-
-### 🔍 Arc Browser
-
-It’s a new browser that everyone is talking about at early 2023. It changes the whole way how we think of browser and all the little details put into this application is just amazing. I am loving this app more and more after use over past months.

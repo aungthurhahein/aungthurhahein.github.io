@@ -6,7 +6,7 @@ categories: [Tech, Guide]
 tags: [productivity, Technology, Android]
 math: false
 mermaid: false
-pin: true
+pin: false
 ---
 
 # Background

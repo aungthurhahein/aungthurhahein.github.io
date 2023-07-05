@@ -16,8 +16,8 @@ order: 1
 ## Some facts of me 👷🏻
 
 - 🧑🏽‍💻 Learn to code CFML, .Net and PHP after undergraduate and works as web developer.
-- 👨🏽‍🎓 Got Master in Computer Science with Thesis focused on Digital Forensic  and CyberSecurity Focus
-- 👨🏼‍⚕️ Jumpstart career as security engineer and now working as CyberSecurity Manger.
+- 👨🏽‍🎓 Got Master in Computer Science with Thesis focused on Digital Forensic  and CyberSecurity 
+- 👨🏼‍⚕️ Jumps-start career as security engineer and now working as CyberSecurity Manger.
 - 🔭 Keen interests in Application Security, Forensic, Threat Hunting, defensive security and monitoring threat actors.
 - ℹ️ A logical and analytical mindset, [INTJ](https://www.16personalities.com/intj-personality).
 - 🌊 Believe in Minimalism and trying to declutter life and things around me.
@@ -25,7 +25,7 @@ order: 1
 
 ## Get in touch 📪
 
-- ✉️ If you are interested to make a digital conversation with me, don’t hesitate to contact me via ***aungthurhahein[at]gmail[dot]com*.**
+- ✉️ If you are interested to make a digital conversation with me, don’t hesitate to contact me via ***hello[at]aung[dot]tech*.**
 - #️⃣ Follow or DM on [Twitter](https://twitter.com/steve_a150) if there is any topics or ideas to discuss.
 - I posted some of these blogs on [Medium](https://atrhein.medium.com) as well.
 - For business related talk, let connect on [LinkedIn](https://www.linkedin.com/in/aung-thu-rha-hein-2947b718/). I am open for freelance security projects and future employers that looking for **Security technical consulting** related positions.

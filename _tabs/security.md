@@ -22,6 +22,13 @@ order: 2
 
 I handpicked the books that change or improve my understanding of CyberSecurity fundamentals and concepts. Please note that these are not practical “how-to” books. 
 
+### Cybersecurity First Principles: A Reboot of Strategy and Tactics
+
+![Cybersecurity First Principles: A Reboot of Strategy and Tactics](/cybersec_first.jpg)
+
+Rick Howard is CSO and CISO of several big names such as Palo Alto Networks and Verisign and current CSO of N2k and senior folk at Cyberwire. The book tackles on the strategy and focus differences between organizations and industries and the philosophical aspects of cybersecurity atomic first principles: Zero Trust, Intrusion Kill Chain Prevention, Resilience, Risk Forecasting, Automation and Summation. This is one recommended book to understand cybersecurity strategy that a particular organization is practicing that security practitioners can support effectively from their roles.
+
+
 ### Click Here to Kill Everybody
 
 ![Click Here to Kill Everybody](/security/click_here.jpg)

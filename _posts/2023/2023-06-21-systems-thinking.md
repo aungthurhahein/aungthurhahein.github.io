@@ -6,7 +6,6 @@ categories: [Security,Theory]
 tags: [Systems Thinking,Cybersecurity]
 math: false
 mermaid: false
-pin: true
 ---
 # **Connected Leadership to Systems Thinking**
 

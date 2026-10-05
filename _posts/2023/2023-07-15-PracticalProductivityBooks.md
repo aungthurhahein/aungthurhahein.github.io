@@ -6,7 +6,6 @@ categories: [Notes,Productivity]
 tags: [productivity,Books]
 math: false
 mermaid: false
-pin: true
 ---
 ![3 Productivity Books](/3books.png)
 

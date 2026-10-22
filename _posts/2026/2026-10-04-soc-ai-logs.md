@@ -1,5 +1,6 @@
 ---
 title: SOC AI has reached the logs. Mostly, it writes the query.
+description: "SOC AI used to mean alert triage. Now the pitch is that agents work directly on logs and telemetry. At carrier scale, it still mostly writes the query."
 author: aung
 date: 2026-10-04 22:00:00 +0700
 categories: [CyberSecurity]

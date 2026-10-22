@@ -26,10 +26,11 @@ title: Unrivaled Rōnin              # the main title
 tagline: CyberSecurity|Tech|Life   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  CyberSecurity, Threat Intelligence, Life, Incident Response and Threat.
+  Notes from a Head of SOC at a Thai telecom operator on SOC leadership, GRC,
+  threat intelligence, incident response and AI in security operations.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://aung.tech'   # required: makes canonical, og:url, sitemap, robots.txt and feed URLs absolute
 
 github:
   username: aungthurhahein             # change to your github username
@@ -44,13 +45,17 @@ social:
   email: aungthurhahein@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/@steve_a150      # change to your twitter homepage
+    - https://twitter.com/steve_a150      # change to your twitter homepage
     - https://github.com/aungthurhahein       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/aung-thu-rha-hein/
 
 google_site_verification: rV-GhF_RYBcpqf9iTP9iWBxjhzfCknQ0kMPB_sRhw4c      # fill in to your verification string
+
+# Bing Webmaster Tools (jekyll-seo-tag). Paste the msvalidate.01 code from Bing, then uncomment.
+# webmaster_verifications:
+#   bing: <BING_CODE>
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings

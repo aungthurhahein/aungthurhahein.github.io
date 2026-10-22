@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Digital Forensic Resources 
+description: "Books, journals and learning resources for Digital Forensic self-learners and newcomers to Digital Forensic and Incident Response (DFIR)."
 date: 2016-04-05 +0700
 categories: [Security, Forensic]    
 tags: [Tools, Research]

@@ -10,3 +10,8 @@ Aung:
   name: Aung
   twitter: steve_a150
   url: https://twitter.com/steve_a150
+
+# Posts use `author: aung` (lowercase). Keys are case-sensitive, so this entry
+# fixes the JSON-LD author name while keeping the visible byline unchanged.
+aung:
+  name: Aung 🥷🏻

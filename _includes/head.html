@@ -48,6 +48,13 @@
 
   {{ seo_tags }}
 
+  {% unless seo_tags contains 'og:image' %}
+    <!-- fallback share image when a page has no `image` in front matter -->
+    {% capture fallback_img %}{% if site.img_cdn contains '//' %}{{ site.img_cdn }}{{ site.avatar }}{% else %}{{ site.avatar | absolute_url }}{% endif %}{% endcapture %}
+    <meta property="og:image" content="{{ fallback_img | strip }}" />
+    <meta name="twitter:image" content="{{ fallback_img | strip }}" />
+  {% endunless %}
+
   <title>
   {%- unless page.layout == "home" -%}
     {{ page.title | append: " | "}}

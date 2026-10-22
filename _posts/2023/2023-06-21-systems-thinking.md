@@ -1,5 +1,6 @@
 ---
 title: Systems Thinking Applied to Cybersecurity
+description: "Reflections on applying systems thinking, from a Coursera course on Connected Leadership, to a career in the cybersecurity field."
 author: aung
 date: 2023-06-11 10:45:00 +0700
 categories: [Security,Theory]

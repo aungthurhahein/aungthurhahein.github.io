@@ -1,5 +1,6 @@
 ---
 title: AI and automation in GRC operations. Drafts are fine. Sign-off is not.
+description: "AI agents now collect evidence, map controls and fill questionnaires. Some of that is real. What still fails: treating a fluent draft as a finished judgment."
 author: aung
 date: 2026-10-07 10:00:00 +0700
 categories: [CyberSecurity]

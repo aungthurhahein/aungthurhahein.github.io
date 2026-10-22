@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Penetration Testing - Business Logic Test
+description: "Business logic testing in web application penetration testing: what developers get wrong in design, forgotten security requirements and implementation."
 date: 2019-03-30 +0700
 categories: [Security, Application Testing]    
 tags: [Security, Development]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is FIDO and Next Generation Online Authentication
+description: "Passwords are easy to phish and 2FA is often costly or clunky. What FIDO is and how it shapes next-generation online authentication."
 date: 2016-07-15
 categories: [Security, Authentication]  
 tags: [Authentication, 2FA, FIDO] 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thoughts on DevSecOps
+description: "Why DevOps culture is the building block of DevSecOps, and what it takes to bring security into a fast, automated delivery pipeline."
 date: 2018-10-01 +0700
 categories: [Security, DevSecOps]    
 tags: [Security, Development]

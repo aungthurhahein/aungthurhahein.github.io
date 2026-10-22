@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ransomware preventive measures
+description: "AV is not enough protection against ransomware. Preventive measures (backups, network monitoring, endpoint security) and what to do after an attack."
 date: 2017-03-27 +0700
 categories: [Security, Prevention]    
 tags: [Ransowmare, Threat] 

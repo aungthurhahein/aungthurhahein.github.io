@@ -1,5 +1,6 @@
 ---
 title: InfoStealer Malware & How to AVOID them
+description: "What InfoStealer malware is, where the stolen information goes, how its ecosystem works, and what individuals can do to prevent it."
 author: aung
 date: 2022-11-25 11:45:00 +0700
 categories: [Security, Threat]
